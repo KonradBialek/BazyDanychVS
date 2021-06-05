@@ -48,6 +48,10 @@ namespace AplikacjaDostepowa.Views
                         {
                             MessageBox.Show(ex.Message);
                         }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                     }
                 }
             }
@@ -70,6 +74,10 @@ namespace AplikacjaDostepowa.Views
                             Mb.ImportFromFile(dialog.FileName);
                         }
                         catch (MySqlException ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                        catch (Exception ex)
                         {
                             MessageBox.Show(ex.Message);
                         }

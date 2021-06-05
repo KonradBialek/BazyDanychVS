@@ -41,7 +41,7 @@ namespace AplikacjaDostepowa.Views
                         WHERE uczen_iducznia = @id", new MySql.Data.MySqlClient.MySqlParameter("id", user.ID));
                 else if (user.Typ == UserType.Nauczyciel)
                 {
-                    return BazaDanych.GetTable(@"SELECT u.nr_w_dzienniku as nr, u.dane_osobowe_Imie as Imię_ucznia, u.dane_osobowe_Nazwisko as Nazwisko_ucznia, przedmiot_nazwa as nazwa_przedmiotu, wartosc as wartość_oceny, waga
+                    return BazaDanych.GetTable(@"SELECT u.nr_w_dzienniku as nr, u.dane_osobowe_Imie as Imię_ucznia, u.dane_osobowe_Nazwisko as Nazwisko_ucznia, przedmiot_nazwa as nazwa_przedmiotu, wartosc as wartość_oceny, waga, opis
                         FROM ocena
                         LEFT JOIN uczen u on ocena.uczen_iducznia = u.iducznia
                         WHERE ocena.nauczyciel_id = @id", new MySql.Data.MySqlClient.MySqlParameter("id", user.ID));
