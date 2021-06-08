@@ -62,6 +62,7 @@ namespace AplikacjaDostepowa.Views.Admin
                    new MySqlParameter("czy_admin", CzyAdmin.IsChecked),
                    new MySqlParameter("haslo", "69f157f5a264958d01d15f9624eb82f3")
                    );
+                MessageBox.Show("Dodano nauczyciela.");
             }
             else
             {
@@ -73,6 +74,7 @@ namespace AplikacjaDostepowa.Views.Admin
                     new MySqlParameter("czy_admin", CzyAdmin.IsChecked),
                     new MySqlParameter("id", AktualnyId)
                     );
+                MessageBox.Show("Zaktualizowano nauczyciela, jeżeli nie wywołano wiadomości z błędem.");
             }
             ((MainWindow)Application.Current.MainWindow).DataContext = new Administrator();
         }
@@ -81,7 +83,17 @@ namespace AplikacjaDostepowa.Views.Admin
 
             if (AktualnyId != -1)
             {
+                
+                BazaDanych.Execute("SET FOREIGN_KEY_CHECKS = 0");
+                BazaDanych.Execute("UPDATE klasa SET nauczyciel_id = 0 WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("UPDATE lekcja SET nauczyciel_id = 0 WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("DELETE FROM nauczyciel_moze_prowadzic_przedmiot WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("DELETE FROM nauczyciel_prowadzi_przedmiot WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("UPDATE nieobecnosc SET nauczyciel_id = 0 WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("UPDATE ocena SET nauczyciel_id = 0 WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
+                BazaDanych.Execute("UPDATE uwagi SET nauczyciel_id = 0 WHERE nauczyciel_id = @id", new MySqlParameter("id", AktualnyId));
                 BazaDanych.Execute("DELETE FROM nauczyciel WHERE id = @id", new MySqlParameter("id", AktualnyId));
+                MessageBox.Show("Usunięto nauczyciela.");
             }
     ((MainWindow)Application.Current.MainWindow).DataContext = new Administrator();
         }

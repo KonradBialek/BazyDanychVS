@@ -39,6 +39,7 @@ namespace AplikacjaDostepowa.Views
                 new MySqlParameter("nauczyciel_id", user.ID),
                 new MySqlParameter("uczen_iducznia", Uczen.SelectionBoxItem)
                 );
+            MessageBox.Show("Dodano uwagę.");
             ((MainWindow)Application.Current.MainWindow).DataContext = new Uwagi();
         }
     }

@@ -100,10 +100,13 @@ WHERE data_dnia = @data AND biezacy_szablon_lekcji_nr_w_dniu = @nr AND roczny_pl
             if (isInDB)
             {
                 BazaDanych.Execute("UPDATE lekcja SET temat=@temat, przedmiot_nazwa= @przedmiot_nazwa WHERE data_dnia = @data_dnia AND biezacy_szablon_lekcji_nr_w_dniu = @biezacy_szablon_lekcji_nr_w_dniu AND roczny_plan_lekcji_id = @roczny_plan_lekcji_id", parameters);
+                MessageBox.Show("Zaktualizowano lekcję.");
             }
             else
             {
                 BazaDanych.Execute("INSERT INTO lekcja (data_dnia, biezacy_szablon_lekcji_nr_w_dniu, biezacy_szablon_lekcji_dzien_w_tyg, nauczyciel_id, temat, roczny_plan_lekcji_id, przedmiot_nazwa, informacje_id) VALUES (@data_dnia, @biezacy_szablon_lekcji_nr_w_dniu, @biezacy_szablon_lekcji_dzien_w_tyg, @nauczyciel_id, @temat, @roczny_plan_lekcji_id, @przedmiot_nazwa, 1)", parameters);
+                BazaDanych.Execute("INSERT INTO biezacy_szablon_lekcji (nr_w_dniu, dzien_w_tyg) VALUES (@biezacy_szablon_lekcji_nr_w_dniu, @biezacy_szablon_lekcji_dzien_w_tyg)", parameters);
+                MessageBox.Show("Dodano lekcję.");
             }
         }
 

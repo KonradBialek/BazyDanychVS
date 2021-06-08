@@ -31,6 +31,7 @@ namespace AplikacjaDostepowa.Views
             BazaDanych.Execute("INSERT INTO informacje (tresc) VALUES (@tresc)",
                 new MySqlParameter("tresc", Opis.Text)
                 );
+            MessageBox.Show("Dodano ogłoszenie.");
             ((MainWindow)Application.Current.MainWindow).DataContext = new Ogłoszenia();
         }
     }

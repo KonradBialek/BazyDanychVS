@@ -40,6 +40,7 @@ namespace AplikacjaDostepowa.Views
                 new MySqlParameter("lekcja_data", lekcja["data_dnia"]),
                 new MySqlParameter("lekcja_nr_w_dniu", lekcja["biezacy_szablon_lekcji_nr_w_dniu"])
                 );
+            MessageBox.Show("Dodano nieobecność.");
             ((MainWindow)Application.Current.MainWindow).DataContext = new Nieobecności();
         }
 
