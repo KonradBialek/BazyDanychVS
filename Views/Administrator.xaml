@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="AplikacjaDostepowa.Views.Administrator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AplikacjaDostepowa"
+             mc:Ignorable="d" 
+             xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:admin="clr-namespace:AplikacjaDostepowa.Views.Admin"
+             d:DesignHeight="450" d:DesignWidth="700">
+    <Grid Background="White">
+        <TabControl>
+            <TabItem Header="Nauczyciele">
+                <admin:Nauczyciele></admin:Nauczyciele>
+            </TabItem>
+            <TabItem Header="Klasy">
+                <Grid Background="#FFE5E5E5">
+                </Grid>
+            </TabItem>
+            <TabItem Header="Uczniowie">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Rodzice">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Przydziel uczniów">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Plany lekcji">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="AplikacjaDostepowa.Views.Logowanie"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AplikacjaDostepowa"
+             mc:Ignorable="d" 
+             xmlns:s="clr-namespace:System;assembly=mscorlib"
+             d:DesignHeight="450" d:DesignWidth="700">
+    <Grid Background="White">
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox Name="login" HorizontalAlignment="Left" Margin="114,12,0,0" Text="Login" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Login" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <PasswordBox Name="haslo" HorizontalAlignment="Left" Margin="114,48,0,0" Password="Hasło" VerticalAlignment="Top" Width="188"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,46,0,0" Text="Hasło" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <PasswordBox Name="hasloDB" HorizontalAlignment="Left" Margin="114,80,0,0" Password="Hasło" VerticalAlignment="Top" Width="188"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,78,0,0" Text="Hasło bazy danych" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button Content="Zaloguj" HorizontalAlignment="Center" Margin="114,123,128,0"  Click="Zaloguj" Width="60"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="30" Text="Dziennik szkolny" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</UserControl>

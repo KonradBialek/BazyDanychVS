@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="AplikacjaDostepowa.Views.Terminarz"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AplikacjaDostepowa" 
+             mc:Ignorable="d" 
+             xmlns:s="clr-namespace:System;assembly=mscorlib"
+             d:DesignHeight="450" d:DesignWidth="700">
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Column="1" Text="Terminarz " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <DataGrid Margin="10,37,10,10" Name="dataGrid1"  ItemsControl.ItemsSource="{Binding Data, Mode = OneWay}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserDeleteRows="False"/>
+    </Grid>
+</UserControl>

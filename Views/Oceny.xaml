@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="AplikacjaDostepowa.Views.Oceny"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AplikacjaDostepowa" xmlns:s="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="551.977" d:DesignWidth="992.869">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Margin="0,10,0,0" Text="Oceny bieżące" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <TextBlock Margin="0,10,0,0" Text="Oceny średnie" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Column="2"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="18,0,0,10" Text="Legenda: &#xA;4 - egzamin &#xA;3 - sprawdzian&#xA;2 - kartkówka&#xA;1 - odp. ustna" TextWrapping="Wrap" Height="89" VerticalAlignment="Bottom"/>
+
+        <DataGrid Margin="10,31,10,99" Name="dataGrid1" ItemsControl.ItemsSource="{Binding Current, Mode = OneWay}" CanUserAddRows="False" CanUserDeleteRows="False"/>
+        <DataGrid Margin="10,31,10,10" ItemsControl.ItemsSource="{Binding Total, Mode = OneWay}" CanUserAddRows="False" CanUserDeleteRows="False" Grid.Column="1"/>
+        <Button Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="46" Click="Button_Click" Name="DodajButton">Dodaj</Button>
+    </Grid>
+</UserControl>

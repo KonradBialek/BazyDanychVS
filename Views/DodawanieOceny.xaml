@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="AplikacjaDostepowa.Views.DodawanieOceny"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AplikacjaDostepowa.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,16,0,0">Uczeń</TextBlock>
+        <ComboBox ItemsSource="{Binding Uczniowie, Mode=OneWay}" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="74,10,10,0" Name="Uczen"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,43,0,0">Przedmiot</TextBlock>
+        <ComboBox ItemsSource="{Binding Przedmioty, Mode=OneWay}" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="74,37,10,0" Name="Przedmiot"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0">Wartość</TextBlock>
+        <TextBox VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="74,64,10,0" Name="Wartosc" Text="5"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,89,0,0">Waga</TextBlock>
+        <TextBox VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="74,87,10,0" Name="Waga" Text="1"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,112,0,0">Opis</TextBlock>
+        <TextBox VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="74,110,10,0" Name="Opis"/>
+        <Button Margin="0,133,0,0" Height="27" VerticalAlignment="Top" HorizontalAlignment="Center" Width="44" Click="Button_Click">Zapisz</Button>
+    </Grid>
+</UserControl>
