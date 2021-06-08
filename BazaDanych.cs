@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,6 +43,10 @@ namespace AplikacjaDostepowa
 
         internal static void SetPassword(string password)
         {
+            byte[] pass = Encoding.UTF8.GetBytes(password);
+            MD5 md5Provider = new MD5CryptoServiceProvider();
+            byte[] md5Hash = md5Provider.ComputeHash(pass);
+            password = BitConverter.ToString(md5Hash).Replace("-", string.Empty).ToLower();
             var ConnString = "server=localhost;uid=dziennikszkolny;pwd=" + password + ";database=dziennikszkolny;";
             Connection = new MySqlConnection(ConnString);
             try

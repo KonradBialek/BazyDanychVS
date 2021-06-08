@@ -39,8 +39,15 @@ namespace AplikacjaDostepowa.Views
                 {
                     using (MySqlBackup Mb = new MySqlBackup(Cmd))
                     {
-                        Cmd.Connection = BazaDanych.Connection;
-                        Mb.ExportToFile(dialog.FileName);
+                        try
+                        {
+                            Cmd.Connection = BazaDanych.Connection;
+                            Mb.ExportToFile(dialog.FileName);
+                        }
+                        catch (MySqlException ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                     }
                 }
             }
@@ -57,8 +64,15 @@ namespace AplikacjaDostepowa.Views
                 {
                     using (MySqlBackup Mb = new MySqlBackup(Cmd))
                     {
-                        Cmd.Connection = BazaDanych.Connection;
-                        Mb.ImportFromFile(dialog.FileName);
+                        try
+                        {
+                            Cmd.Connection = BazaDanych.Connection;
+                            Mb.ImportFromFile(dialog.FileName);
+                        }
+                        catch (MySqlException ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                     }
                 }
             }
