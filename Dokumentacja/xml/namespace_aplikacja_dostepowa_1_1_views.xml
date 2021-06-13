@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_aplikacja_dostepowa_1_1_views" kind="namespace" language="C#">
+    <compoundname>AplikacjaDostepowa::Views</compoundname>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator" prot="public">AplikacjaDostepowa::Views::Administrator</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" prot="public">AplikacjaDostepowa::Views::Archiwum</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87" prot="public">AplikacjaDostepowa::Views::DodajNieobecność</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" prot="public">AplikacjaDostepowa::Views::DodajUwagę</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" prot="public">AplikacjaDostepowa::Views::DodawanieOceny</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia" prot="public">AplikacjaDostepowa::Views::DodawanieOgłoszenia</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" prot="public">AplikacjaDostepowa::Views::Lekcja</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" prot="public">AplikacjaDostepowa::Views::Logowanie</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" prot="public">AplikacjaDostepowa::Views::Nieobecności</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny" prot="public">AplikacjaDostepowa::Views::Oceny</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" prot="public">AplikacjaDostepowa::Views::Ogłoszenia</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" prot="public">AplikacjaDostepowa::Views::Plan_lekcji</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz" prot="public">AplikacjaDostepowa::Views::Terminarz</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka" prot="public">AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi" prot="public">AplikacjaDostepowa::Views::Uwagi</innerclass>
+    <innernamespace refid="namespace_aplikacja_dostepowa_1_1_views_1_1_admin">AplikacjaDostepowa::Views::Admin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

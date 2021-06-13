@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Models::Nauczyciel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1acd568e53d0d3ac9714faceb9389e07c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AplikacjaDostepowa.Models.Nauczyciel.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Pobiera indeks nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="23" column="20" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a4506b972dbb620ca3bb80500ac4ec2cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Models.Nauczyciel.czy_admin</definition>
+        <argsstring></argsstring>
+        <name>czy_admin</name>
+        <briefdescription>
+<para>Pobiera informację czy nauczyciel jet administratorem.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="25" column="21" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a25329618ef6b18f65a76ceed81ae664a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.Nauczyciel.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+<para>Pobiera login nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="28" column="23" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a525a4add5d335e6eae025cb318c15bed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AplikacjaDostepowa.Models.Nauczyciel.wiek</definition>
+        <argsstring></argsstring>
+        <name>wiek</name>
+        <briefdescription>
+<para>Pobiera wiek nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="31" column="20" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1ae4b5ac9ac2dfc773d73b5a0ecd86cd06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Imie</definition>
+        <argsstring></argsstring>
+        <name>dane_osobowe_Imie</name>
+        <briefdescription>
+<para>Pobiera imię nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="34" column="23" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a8d50a63df4fbb59d512251ab4dc735de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Nazwisko</definition>
+        <argsstring></argsstring>
+        <name>dane_osobowe_Nazwisko</name>
+        <briefdescription>
+<para>Pobiera nazwisko nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="37" column="23" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a2df9077984fd65602c92813a846df7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string AplikacjaDostepowa.Models.Nauczyciel.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Metoda wykorzystująca id nauczyciela dodawanego do aplikacji do odpowiedniego formatowania i wyświetlania jego danych na liście wyboru do edycji. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Odpowiednio sformatowany tekst.</para>
+</simplesect>
+<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="43" column="32" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel" kindref="compound">Nauczyciel</ref></computeroutput> zawiera właściwości opisujące nauczyciela i metodę formatowania wyświetlania jego danych osobowych na liście wyboru do edycji. <itemizedlist>
+<listitem>
+<para>ToString  Metoda przekształcająca id nauczyciela dodawanego do aplikacji do odpowiedniego formatowania i wyświetlania jego danych na liście wyboru do edycji.  </para>
+</listitem>
+</itemizedlist>
+</para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/Nauczyciel.cs" line="19" column="11" bodyfile="G:/sem6/BAZY/Models/Nauczyciel.cs" bodystart="20" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a4506b972dbb620ca3bb80500ac4ec2cf" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>czy_admin</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1ae4b5ac9ac2dfc773d73b5a0ecd86cd06" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>dane_osobowe_Imie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a8d50a63df4fbb59d512251ab4dc735de" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>dane_osobowe_Nazwisko</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1acd568e53d0d3ac9714faceb9389e07c7" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>id</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a25329618ef6b18f65a76ceed81ae664a" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>login</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a2df9077984fd65602c92813a846df7e9" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>ToString</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a525a4add5d335e6eae025cb318c15bed" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::Nauczyciel</scope><name>wiek</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

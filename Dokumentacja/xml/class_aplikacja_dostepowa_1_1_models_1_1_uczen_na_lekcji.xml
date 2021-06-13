@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Models::UczenNaLekcji</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1ae40f7ca49f24c520ce2e7c9d274e7764" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Imie</definition>
+        <argsstring></argsstring>
+        <name>dane_osobowe_Imie</name>
+        <briefdescription>
+<para>Pobiera imię ucznia.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/UczenNaLekcji.cs" line="17" column="23" bodyfile="G:/sem6/BAZY/Models/UczenNaLekcji.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a11f130a19e58fc1245e5b0b58a8df7a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Nazwisko</definition>
+        <argsstring></argsstring>
+        <name>dane_osobowe_Nazwisko</name>
+        <briefdescription>
+<para>Pobiera nazwisko ucznia.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/UczenNaLekcji.cs" line="20" column="23" bodyfile="G:/sem6/BAZY/Models/UczenNaLekcji.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a8553f4952eb316f53550ba201b11e0cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AplikacjaDostepowa.Models.UczenNaLekcji.nr_w_dzienniku</definition>
+        <argsstring></argsstring>
+        <name>nr_w_dzienniku</name>
+        <briefdescription>
+<para>Pobiera nr w dzienniku ucznia.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/UczenNaLekcji.cs" line="23" column="20" bodyfile="G:/sem6/BAZY/Models/UczenNaLekcji.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" kindref="compound">UczenNaLekcji</ref></computeroutput> zawiera właściwości opisujące ucznia w klasie. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/UczenNaLekcji.cs" line="13" column="11" bodyfile="G:/sem6/BAZY/Models/UczenNaLekcji.cs" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1ae40f7ca49f24c520ce2e7c9d274e7764" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::UczenNaLekcji</scope><name>dane_osobowe_Imie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a11f130a19e58fc1245e5b0b58a8df7a8" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::UczenNaLekcji</scope><name>dane_osobowe_Nazwisko</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a8553f4952eb316f53550ba201b11e0cd" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::UczenNaLekcji</scope><name>nr_w_dzienniku</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

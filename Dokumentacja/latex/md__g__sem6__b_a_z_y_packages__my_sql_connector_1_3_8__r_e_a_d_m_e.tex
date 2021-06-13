@@ -1,0 +1,61 @@
+My\+Sql\+Connector is an {\texttt{ ADO.\+NET}} data provider for {\texttt{ My\+SQL}}, {\texttt{ Maria\+DB}}, {\texttt{ Amazon Aurora}}, {\texttt{ Azure Database for My\+SQL}} and other My\+SQL-\/compatible databases.
+
+More documentation is available at the {\texttt{ My\+Sql\+Connector website}}.\doxysection{How to Use}\label{md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e_autotoc_md5}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{// set these values correctly for your database server}
+\DoxyCodeLine{var builder = new MySqlConnectionStringBuilder}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    Server = "{}your-\/server"{},}
+\DoxyCodeLine{    UserID = "{}database-\/user"{},}
+\DoxyCodeLine{    Password = "{}P@ssw0rd!"{},}
+\DoxyCodeLine{    Database = "{}database-\/name"{},}
+\DoxyCodeLine{\};}
+\DoxyCodeLine{}
+\DoxyCodeLine{// open a connection asynchronously}
+\DoxyCodeLine{using var connection = new MySqlConnection(builder.ConnectionString);}
+\DoxyCodeLine{await connection.OpenAsync();}
+\DoxyCodeLine{}
+\DoxyCodeLine{// create a DB command and set the SQL statement with parameters}
+\DoxyCodeLine{using var command = connection.CreateCommand();}
+\DoxyCodeLine{command.CommandText = @"{}SELECT * FROM orders WHERE order\_id = @OrderId;"{};}
+\DoxyCodeLine{command.Parameters.AddWithValue("{}@OrderId"{}, orderId);}
+\DoxyCodeLine{}
+\DoxyCodeLine{// execute the command and read the results}
+\DoxyCodeLine{using var reader = await command.ExecuteReaderAsync();}
+\DoxyCodeLine{while (reader.Read())}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    var id = reader.GetInt32("{}order\_id"{});}
+\DoxyCodeLine{    var date = reader.GetDateTime("{}order\_date"{});}
+\DoxyCodeLine{    // ...}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\doxysection{Key Features}\label{md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e_autotoc_md6}
+
+\begin{DoxyItemize}
+\item Full support for async I/O
+\item High performance
+\item Supports. NET Framework, .NET Core, and .NET 5.\+0+
+\end{DoxyItemize}\doxysection{Main Types}\label{md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e_autotoc_md7}
+The main types provided by this library are\+:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily My\+Sql\+Connection} (implementation of {\ttfamily Db\+Connection})
+\item {\ttfamily My\+Sql\+Command} (implementation of {\ttfamily Db\+Command})
+\item {\ttfamily My\+Sql\+Data\+Reader} (implementation of {\ttfamily Db\+Data\+Reader})
+\item {\ttfamily My\+Sql\+Bulk\+Copy}
+\item {\ttfamily My\+Sql\+Bulk\+Loader}
+\item {\ttfamily My\+Sql\+Connection\+String\+Builder}
+\item {\ttfamily My\+Sql\+Connector\+Factory}
+\item {\ttfamily My\+Sql\+Data\+Adapter}
+\item {\ttfamily My\+Sql\+Exception}
+\item {\ttfamily My\+Sql\+Transaction} (implementation of {\ttfamily Db\+Transaction})
+\end{DoxyItemize}\doxysection{Related Packages}\label{md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e_autotoc_md8}
+
+\begin{DoxyItemize}
+\item Entity Framework Core\+: {\texttt{ Pomelo.\+Entity\+Framework\+Core.\+My\+Sql}}
+\item Logging\+: {\texttt{ log4net}}, {\texttt{ Microsoft.\+Extensions}}, {\texttt{ NLog}}, {\texttt{ Serilog}}
+\end{DoxyItemize}\doxysection{Feedback}\label{md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e_autotoc_md9}
+My\+Sql\+Connector is released as open source under the {\texttt{ MIT license}}. Bug reports and contributions are welcome at {\texttt{ the Git\+Hub repository}}. 

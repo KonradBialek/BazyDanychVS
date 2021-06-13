@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AplikacjaDostepowa</name>
+    </assembly>
+    <members>
+        <member name="T:AplikacjaDostepowa.BazaDanych">
+            <summary>
+            Klasa BazaDanych odpowiedzialna za komunikację z bazą danych
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.BazaDanych.Connection">
+            <value>Połączenie z bazą.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.Execute(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            Wykonuje zapytanie sql bez zwracania danych (np. Insert, Update)
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.SetPassword(System.String)">
+            <summary>
+            Tworzenie połączenia z bazą po podaniu hasła.
+            </summary>
+            <param name="password">podane hasło</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.ReadAsArray(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            Wykonuje zapytanie typu Select zwracając dane.
+            </summary>
+            <param name="query">zapytanie</param>
+            <param name="parameters">Parametry zapytanie</param>
+            <returns>lista danych</returns>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.ReadAsDictionary(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            Odczytuje odpowiedź bazy jako słownik.
+            </summary>
+            <param name="query">zapytanie</param>
+            <param name="parameters">Parametry zapytanie</param>
+            <returns>lista danych</returns>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.GetTable(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            Pobiera tablicę danych.
+            </summary>
+            <param name="query">zapytanie</param>
+            <param name="parameters">Parametry zapytanie</param>
+            <returns>tablica danych</returns>
+        </member>
+        <member name="M:AplikacjaDostepowa.BazaDanych.ReadAsClass``1(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            Pobiera dane w formacie JSON i je deserializuje do klas z folderu Models.
+            </summary>
+            <param name="query">zapytanie</param>
+            <param name="parameters">Parametry zapytanie</param>
+            <returns>tablica danych</returns>
+        </member>
+        <member name="T:AplikacjaDostepowa.Models.LekcjaModel">
+            <summary>
+            Klasa <c>LekcjaModel</c> zawiera właściwości opisujące temat lekcji i przedmiot, z którego jest lekcja.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.LekcjaModel.temat">
+            <value>Pobiera temat lekcji.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.LekcjaModel.przedmiot_nazwa">
+            <value>Pobiera nazwę przedmiotu.</value>
+        </member>
+        <member name="T:AplikacjaDostepowa.Models.Nauczyciel">
+            <summary>
+            Klasa <c>Nauczyciel</c> zawiera właściwości opisujące nauczyciela i metodę formatowania wyświetlania jego danych osobowych na liście wyboru do edycji.
+            <list type="bullet">
+            <item>
+            <term>ToString </term>
+            <description>Metoda przekształcająca id nauczyciela dodawanego do aplikacji do odpowiedniego formatowania i wyświetlania jego danych na liście wyboru do edycji.</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.id">
+            <value>Pobiera indeks nauczyciela.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.czy_admin">
+            <value>Pobiera informację czy nauczyciel jet administratorem.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.login">
+            <value>Pobiera login nauczyciela.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.wiek">
+            <value>Pobiera wiek nauczyciela.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Imie">
+            <value>Pobiera imię nauczyciela.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Nazwisko">
+            <value>Pobiera nazwisko nauczyciela.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Models.Nauczyciel.ToString">
+            <summary>
+            Metoda wykorzystująca id nauczyciela dodawanego do aplikacji do odpowiedniego formatowania i wyświetlania jego danych na liście wyboru do edycji.
+            </summary>
+            <returns>Odpowiednio sformatowany tekst.</returns>  
+        </member>
+        <member name="T:AplikacjaDostepowa.Models.UczenNaLekcji">
+            <summary>
+            Klasa <c>UczenNaLekcji</c> zawiera właściwości opisujące ucznia w klasie.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Imie">
+            <value>Pobiera imię ucznia.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Nazwisko">
+            <value>Pobiera nazwisko ucznia.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.UczenNaLekcji.nr_w_dzienniku">
+            <value>Pobiera nr w dzienniku ucznia.</value>
+        </member>
+        <member name="T:AplikacjaDostepowa.Models.User">
+            <summary>
+            Klasa <c>User</c> zawiera właściwości opisujące użytkownika i metodę formatowania wyświetlania jego danych osobowych.
+            <list type="bullet">
+            <item>
+            <term>ToString </term>
+            <description>Metoda wykorzystująca typ użytkownika korzystającego z aplikacji do odpowiedniego formatowania i wyświetlania jego danych.</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.ID">
+            <value>Pobiera indeks użytkownika.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.Imie">
+            <value>Pobiera imię użytkownika.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.Nazwisko">
+            <value>Pobiera nazwisko użytkownika.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.Klasa">
+            <value>Pobiera oznaczenie klasy.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.Typ">
+            <value>Pobiera typ użytkownika.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Models.User.IsAdmin">
+            <value>Pobiera informację czy użytkownik jet administratorem.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Models.User.ToString">
+            <summary>
+            Metoda wykorzystująca typ użytkownika korzystającego z aplikacji do odpowiedniego formatowania i wyświetlania jego danych.
+            </summary>
+            <returns>Odpowiednio sformatowany tekst lub pusty ciąg znaków.</returns>
+        </member>
+        <member name="T:AplikacjaDostepowa.UserType">
+            <value>Zawiera wyliczenie możliwych typów użytkowników.</value>
+        </member>
+        <member name="F:AplikacjaDostepowa.UserType.Uczen">
+            <summary>
+            Typ użytkownika  - Uczen
+            </summary>
+        </member>
+        <member name="F:AplikacjaDostepowa.UserType.Rodzic">
+            <summary>
+            Typ użytkownika  - Rodzic
+            </summary>
+        </member>
+        <member name="F:AplikacjaDostepowa.UserType.Nauczyciel">
+            <summary>
+            Typ użytkownika  - Nauczyciel
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Administrator">
+            <summary>
+            Klasa <c>Administrator</c> inicjuje widok administratora.
+            </summary>
+            <summary>
+            Administrator
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Administrator.#ctor">
+            <summary>
+            Konstruktor klasy Administrator, inicjuje widok administratora.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Administrator.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Admin.Nauczyciele">
+            <summary>
+            Klasa <c>Nauczyciele</c> zawiera metody pozwalające na modyfikację i wyświetlanie danych nauuczycieli.
+            </summary>
+            <summary>
+            Nauczyciele
+            </summary>
+        </member>
+        <member name="F:AplikacjaDostepowa.Views.Admin.Nauczyciele.AktualnyId">
+            <value>Pobiera Id wybranego nauczyciela.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Admin.Nauczyciele.#ctor">
+            <summary>
+            Konstruktor klasy Nauczyciele, pobiera i wyświetla listę nauczycieii.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Admin.Nauczyciele.Lista">
+            <value>Pobiera listę nayczycieli.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Admin.Nauczyciele.Combo_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Wyświetlenie danych wybranego nauczyciela.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Admin.Nauczyciele.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie lub zaktualizowanie danych nauczyciela w odpowiednich tabelach.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Admin.Nauczyciele.Usun_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Usunięcie danych nauczyciela z odpowiednich tabel.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Admin.Nauczyciele.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Archiwum">
+            <summary>
+            Klasa <c>Archiwum</c> zapis i przywrócenie archiwum bazy danych.
+            </summary>
+            <summary>
+            Archiwum
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Archiwum.#ctor">
+            <summary>
+            Konstruktor klasy Archiwum.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Archiwum.Archiwizuj(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wywołanie zapisu do archiwum.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Archiwum.Przywroc(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wywołanie przywrócenia z archiwum.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Archiwum.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.DodajNieobecność">
+            <summary>
+            Klasa <c>DodajNieobecność</c> zawiera metody pozwalające na dodawanie nieobecności.
+            </summary>
+            <summary>
+            DodajNieobecność
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajNieobecność.#ctor">
+            <summary>
+            Konstruktor klasy DodajNieobecność, pobiera tabelę uczniów.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.DodajNieobecność.Uczniowie">
+            <value>Pobiera listę uczniów.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajNieobecność.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie nieobecności po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajNieobecność.Uczen_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Zmiana wybranego ucznia.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajNieobecność.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.DodajUwagę">
+            <summary>
+            Klasa <c>DodajUwagę</c> zawiera metody pozwalające na dodawanie uwagi.
+            </summary>
+            <summary>
+            DodajUwagę
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajUwagę.#ctor">
+            <summary>
+            Konstruktor klasy DodajUwagę, pobiera tabelę uczniów.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.DodajUwagę.Uczniowie">
+            <value>Pobiera listę uczniów.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajUwagę.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie uwagi po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodajUwagę.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.DodawanieOceny">
+            <summary>
+            Klasa <c>DodawanieOceny</c> zawiera metody pozwalające na dodawanie oceny.
+            </summary>
+            <summary>
+            DodawanieOceny
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.DodawanieOceny.Przedmioty">
+            <value>Pobiera listę przedmiotów.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.DodawanieOceny.Uczniowie">
+            <value>Pobiera listę uczniów.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOceny.#ctor">
+            <summary>
+            Konstruktor klasy DodawanieOceny, pobiera tabelę uczniów i przedmiotów.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOceny.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie oceny po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOceny.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.DodawanieOgłoszenia">
+            <summary>
+            Klasa <c>DodawanieOgłoszenia</c> zawiera metodę pozwalającą na dodawanie ogłoszenia.
+            </summary>
+            <summary>
+            DodawanieOgłoszenia
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOgłoszenia.#ctor">
+            <summary>
+            Konstruktor klasy DodawanieOceny, pobiera tabelę uczniów i przedmiotów.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOgłoszenia.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie ogłoszenia po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.DodawanieOgłoszenia.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Lekcja">
+            <summary>
+            Klasa <c>Lekcja</c> zawiera metody pozwalające na dodawanie lekcji.
+            </summary>
+            <summary>
+            Lekcja
+            </summary>
+        </member>
+        <member name="F:AplikacjaDostepowa.Views.Lekcja.dzienTygodnia">
+            <value>Zawiera dzień tygodnia.</value>
+        </member>
+        <member name="F:AplikacjaDostepowa.Views.Lekcja.lekcja">
+            <value>Zawiera model lekcji.</value>
+        </member>
+        <member name="F:AplikacjaDostepowa.Views.Lekcja.Klasy">
+            <value>Zawiera listę klas.</value>
+        </member>
+        <member name="F:AplikacjaDostepowa.Views.Lekcja.week">
+            <value>Zawiera tydzień roboczy.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.#ctor">
+            <summary>
+            Konstruktor klasy Lekcja, pobiera przedmioty i klasy.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Lekcja.KlasyNazwy">
+            <value>Pobiera listę klas.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Lekcja.Przedmioty">
+            <value>Pobiera listę przedmiotów.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.LoadNumbers">
+            <summary>
+            Wczytanie numerów lekcji.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.LoadPrzedmioty">
+            <summary>
+            Wczytanie przedmiotów.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.LoadPeople">
+            <summary>
+            Wczytanie uczniów.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.LoadLesson">
+            <summary>
+            Wczytanie lekcji.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.klasaCombo_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Wyświetlenie numerów lekcji, uczniów i lekcji.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie lekcji po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.numerCombo_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Zmiana wybranego numeru lekcji.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Lekcja.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Logowanie">
+            <summary>
+            Klasa <c>Logowanie</c> zawiera metody pozwalające na logowanie użytkownika.
+            </summary>
+            <summary>
+            Logowanie
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Logowanie.Login1">
+            <value>Pobiera login.</value>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Logowanie.Haslo1">
+            <value>Pobiera login.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Logowanie.#ctor">
+            <summary>
+            Konstruktor klasy Logowanie.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Logowanie.Zaloguj(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Obsługa logowania użytkownika (hashowanie hasła).
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Logowanie.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Nieobecności">
+            <summary>
+            Klasa <c>Nieobecności</c> zawiera metody pozwalające na odczyt nieobecności.
+            </summary>
+            <summary>
+            Nieobecności
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Nieobecności.#ctor">
+            <summary>
+            Konstruktor klasy Nieobecności, pobiera podsumowanie oparte o uczniów, klas i lekcje, ustawia widoczność przycisku dodania nieobecności.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Nieobecności.Data">
+            <summary>
+            Pobór tabeli dotyczącej nieobecności z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Nieobecności.LoadSummary">
+            <summary>
+            Pobór podsumowania dotyczącego średniej z ocen.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Nieobecności.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Przejście do okna dodania nieobecności po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Nieobecności.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Oceny">
+            <summary>
+            Klasa <c>Oceny</c> zawiera metody pozwalające na odczyt ocen.
+            </summary>
+            <summary>
+            Oceny
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Oceny.#ctor">
+            <summary>
+            Konstruktor klasy Oceny, ustawia widoczność przycisku dodania oceny.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Oceny.Current">
+            <summary>
+            Pobór tabeli dotyczącej ocen uczniów z bazy danych.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Oceny.Total">
+            <summary>
+            Pobór tabeli dotyczącej średniej ocen uczniów z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Oceny.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Przejście do okna dodania nieobecności po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Oceny.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Ogłoszenia">
+            <summary>
+            Klasa <c>Ogłoszenia</c> zawiera metody pozwalające na odczyt ogłoszeń.
+            </summary>
+            <summary>
+            Ogłoszenia
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Ogłoszenia.#ctor">
+            <summary>
+            Konstruktor klasy Ogłoszenia, ustawia widoczność przycisku dodania ogłoszenia.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Ogłoszenia.Data">
+            <summary>
+            Pobór tabeli dotyczącej ogłoszeń z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Ogłoszenia.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Przejście do okna dodania ogłoszeń po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Ogłoszenia.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Plan_lekcji">
+            <summary>
+            Klasa <c>Plan_lekcji</c> zawiera metody pozwalające na odczyt planu lekcji.
+            </summary>
+            <summary>
+            Plan_lekcji
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Plan_lekcji.#ctor">
+            <summary>
+            Konstruktor klasy Plan_lekcji.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Plan_lekcji.Data">
+            <summary>
+            Pobór tabeli dotyczącej planu lekcji z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Plan_lekcji.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Terminarz">
+            <summary>
+            Klasa <c>Terminarz</c> zawiera metody pozwalające na odczyt terminarza.
+            </summary>
+            <summary>
+            Terminarz
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Terminarz.#ctor">
+            <summary>
+            Konstruktor klasy Terminarz.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Terminarz.Data">
+            <summary>
+            Pobór tabeli dotyczącej terminarza z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Terminarz.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka">
+            <summary>
+            Klasa <c>UczenNaLekcjiKontrolka</c> zawiera metodę pozwalającą na ustawienie danych ucznia do wyświetlenia na liście klasy.
+            </summary>
+            <summary>
+            UczenNaLekcjiKontrolka
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.#ctor(AplikacjaDostepowa.Models.UczenNaLekcji)">
+            <summary>
+            Ustawienie danych ucznia do wyświetlenia na liście klasy
+            </summary>
+            <param name="uczen">Dane ucznia</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Views.Uwagi">
+            <summary>
+            Klasa <c>Uwagi</c> zawiera metody pozwalające na odczyt uwag.
+            </summary>
+            <summary>
+            Uwagi
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Uwagi.#ctor">
+            <summary>
+            Konstruktor klasy Uwagi, ustawia widoczność przycisku dodania uwagi.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Views.Uwagi.Data">
+            <summary>
+            Pobór tabeli dotyczącej uwag z bazy danych.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Uwagi.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Przejście do okna dodania uwag po wciśnięciu przycisku.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.Views.Uwagi.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.App">
+            <summary>
+            Logika interakcji dla klasy App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.MainWindow">
+            <summary>
+            Klasa <c>MainWindow</c> zawiera metody pozwalające na obsługę zakładek aplikacji.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.#ctor">
+            <summary>
+            Konstruktor klasy MainWindow, uruchamia ekran logowania.
+            </summary>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Zaloguj(AplikacjaDostepowa.Models.User)">
+            <summary>
+            Przeprowadza proces logowania.
+            </summary>
+            <param name="qwe">Dane użytkownika</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Oceny(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Oceny
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Nieobecnośći(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Nieobecnośći
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Ogłoszenia(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Ogłoszenia
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Terminarz(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Terminarz
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Uwagi(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Uwagi
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Plan_lekcji(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Plan_lekcji
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Archiwum(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Archiwum
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Wyloguj(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wylogowywuje użytkownika.
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Admin(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Admin
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.Lekcja(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Uruchamia zakładkę Lekcja
+            </summary>
+            <param name="sender">Źródło</param>
+            <param name="e">Dodatkowe argumenty</param>
+        </member>
+        <member name="P:AplikacjaDostepowa.MainWindow.LoggedUser">
+            <value>Pobiera dane użytkownika zalogowanego w procesie logowania.</value>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.UserInBase(System.String,System.String)">
+            <summary>
+            Wyszukuje użytkownika w bazie.
+            </summary>
+            <param name="login">login użytkownika</param>
+            <param name="haslo">hasło użytkownika</param>
+            <returns>zalogowany użytkownik</returns>
+        </member>
+        <member name="M:AplikacjaDostepowa.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AplikacjaDostepowa.Properties.Resources">
+            <summary>
+              Silnie typizowana klasa zasobów do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Properties.Resources.ResourceManager">
+            <summary>
+              Zwraca buforowane wystąpienie składnika ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:AplikacjaDostepowa.Properties.Resources.Culture">
+            <summary>
+              Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej silnie typizowanej klasy zasobów.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

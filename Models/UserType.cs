@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace AplikacjaDostepowa
 {
+    /// <value>Zawiera wyliczenie możliwych typów użytkowników.</value>
     public enum UserType
     {
-        Uczen, Rodzic, Nauczyciel
+        /// <summary>
+        /// Typ użytkownika  - Uczen
+        /// </summary>
+        Uczen,
+        /// <summary>
+        /// Typ użytkownika  - Rodzic
+        /// </summary>
+        Rodzic,
+        /// <summary>
+        /// Typ użytkownika  - Nauczyciel
+        /// </summary>
+        Nauczyciel
     }
 }

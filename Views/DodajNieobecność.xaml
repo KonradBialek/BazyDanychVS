@@ -13,8 +13,8 @@
         <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,39,0,0">Lekcja</TextBlock>
         <ComboBox VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="108,37,10,0" Name="Lekcja"/>
 
-        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0">Usprawiedliwiona</TextBlock>
-        <CheckBox VerticalAlignment="Top" HorizontalAlignment="Left" Margin="108,67,0,0" Name="Usprawiedliwiona"></CheckBox>
+        <!--<TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0">Usprawiedliwiona</TextBlock>-->
+        <!--<CheckBox VerticalAlignment="Top" HorizontalAlignment="Left" Margin="108,67,0,0" Name="Usprawiedliwiona"></CheckBox>-->
         <Button Margin="0,91,0,0" Height="27" VerticalAlignment="Top" HorizontalAlignment="Center" Width="44" Click="Button_Click">Zapisz</Button>
     </Grid>
 </UserControl>

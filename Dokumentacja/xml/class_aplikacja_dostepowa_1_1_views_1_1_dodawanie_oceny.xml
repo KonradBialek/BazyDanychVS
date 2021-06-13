@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::DodawanieOceny</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a032f6539833c57bccc74aa4a0ceefeba" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.DodawanieOceny::Uczen</definition>
+        <argsstring></argsstring>
+        <name>Uczen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ae30f4a28bb56a8d85eafd6a87e18372e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.DodawanieOceny::Przedmiot</definition>
+        <argsstring></argsstring>
+        <name>Przedmiot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="54" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ab695bd45a805296c41936614071127bc" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.DodawanieOceny::Wartosc</definition>
+        <argsstring></argsstring>
+        <name>Wartosc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="62" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a138482dd42dc6dacae369b008a5227f4" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.DodawanieOceny::Waga</definition>
+        <argsstring></argsstring>
+        <name>Waga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="70" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ac72ddb3e3d2e5bfbdc56b393f8216c24" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.DodawanieOceny::Opis</definition>
+        <argsstring></argsstring>
+        <name>Opis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="78" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1af3465fc346c8d84a66a671f18bb91b2a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.DodawanieOceny::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="83" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a28dc3b685fb30decdabf2e3c786bd315" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; AplikacjaDostepowa.Views.DodawanieOceny.Przedmioty</definition>
+        <argsstring></argsstring>
+        <name>Przedmioty</name>
+        <briefdescription>
+<para>Pobiera listę przedmiotów.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" line="26" column="21" bodyfile="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a150e7fcb13f2db6a0c3db9597b4b21a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; ComboBoxItem &gt;</type>
+        <definition>List&lt;ComboBoxItem&gt; AplikacjaDostepowa.Views.DodawanieOceny.Uczniowie</definition>
+        <argsstring></argsstring>
+        <name>Uczniowie</name>
+        <briefdescription>
+<para>Pobiera listę uczniów.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" line="28" column="21" bodyfile="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodawanieOceny.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="90" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodawanieOceny.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.i.cs" line="90" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.i.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a19da1af0b0cd98b335ee5a4bc03f040a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.DodawanieOceny.DodawanieOceny</definition>
+        <argsstring>()</argsstring>
+        <name>DodawanieOceny</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" kindref="compound">DodawanieOceny</ref>, pobiera tabelę uczniów i przedmiotów. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" line="32" column="16" bodyfile="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.DodawanieOceny.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="110" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="110" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.DodawanieOceny.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.i.cs" line="110" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.i.cs" bodystart="110" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ad1ca9aea6289be595626d774b7758575" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodawanieOceny.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie oceny po wciśnięciu przycisku. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" line="44" column="22" bodyfile="G:/sem6/BAZY/Views/DodawanieOceny.xaml.cs" bodystart="44" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" kindref="compound">DodawanieOceny</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" kindref="compound">DodawanieOceny</ref></computeroutput> zawiera metody pozwalające na dodawanie oceny.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.DodawanieOceny</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.DodawanieOceny</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Opis</edgelabel>
+          <edgelabel>Przedmiot</edgelabel>
+          <edgelabel>Uczen</edgelabel>
+          <edgelabel>Waga</edgelabel>
+          <edgelabel>Wartosc</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodawanieOceny.g.cs" bodystart="41" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1af3465fc346c8d84a66a671f18bb91b2a" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ad1ca9aea6289be595626d774b7758575" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a19da1af0b0cd98b335ee5a4bc03f040a" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>DodawanieOceny</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ac72ddb3e3d2e5bfbdc56b393f8216c24" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Opis</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ae30f4a28bb56a8d85eafd6a87e18372e" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Przedmiot</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a28dc3b685fb30decdabf2e3c786bd315" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Przedmioty</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a032f6539833c57bccc74aa4a0ceefeba" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Uczen</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a150e7fcb13f2db6a0c3db9597b4b21a4" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Uczniowie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a138482dd42dc6dacae369b008a5227f4" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Waga</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ab695bd45a805296c41936614071127bc" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodawanieOceny</scope><name>Wartosc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

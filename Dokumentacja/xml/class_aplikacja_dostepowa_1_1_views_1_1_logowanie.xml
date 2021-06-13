@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Logowanie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1abfd346c7010fe7e87bbfab0ab356751b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Logowanie::login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="46" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a2de4b159d95605baef18a8ae6e6b3daf" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.PasswordBox</type>
+        <definition>System Windows Controls PasswordBox AplikacjaDostepowa.Views.Logowanie::haslo</definition>
+        <argsstring></argsstring>
+        <name>haslo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="54" column="51" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a1c541d68924bfdcb6ff6032f054723e9" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.PasswordBox</type>
+        <definition>System Windows Controls PasswordBox AplikacjaDostepowa.Views.Logowanie::hasloDB</definition>
+        <argsstring></argsstring>
+        <name>hasloDB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="62" column="51" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1acde0a2a02170a05a109efb42a0896e93" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Logowanie::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="67" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9939c16a44e9655d31039e08b3626298" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Views.Logowanie.Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="25" column="24" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a019b4a02a9e567683b7ccaa84d2d1cfd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Views.Logowanie.Haslo</definition>
+        <argsstring></argsstring>
+        <name>Haslo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="26" column="24" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae3bc8abd55310ab6761c20fdd31afe26" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Views.Logowanie.Login1</definition>
+        <argsstring></argsstring>
+        <name>Login1</name>
+        <briefdescription>
+<para>Pobiera login.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="29" column="23" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae86fcf6f8e3ac9d52ec0e9b9586341e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Views.Logowanie.Haslo1</definition>
+        <argsstring></argsstring>
+        <name>Haslo1</name>
+        <briefdescription>
+<para>Pobiera login.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="31" column="23" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Logowanie.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="74" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Logowanie.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.i.cs" line="74" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.i.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a3ef0cf2c4f82c88b91c7deef2a390772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Logowanie.Logowanie</definition>
+        <argsstring>()</argsstring>
+        <name>Logowanie</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kindref="compound">Logowanie</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="35" column="16" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9909587476916c05bc733d1a834bda25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Logowanie.Zaloguj</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Zaloguj</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Obsługa logowania użytkownika (hashowanie hasła). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Logowanie.xaml.cs" line="45" column="21" bodyfile="G:/sem6/BAZY/Views/Logowanie.xaml.cs" bodystart="45" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Logowanie.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="94" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="94" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Logowanie.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.i.cs" line="94" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.i.cs" bodystart="94" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kindref="compound">Logowanie</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kindref="compound">Logowanie</ref></computeroutput> zawiera metody pozwalające na logowanie użytkownika.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Logowanie</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Logowanie</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>haslo</edgelabel>
+          <edgelabel>hasloDB</edgelabel>
+          <edgelabel>login</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Logowanie.g.cs" bodystart="41" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1acde0a2a02170a05a109efb42a0896e93" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a2de4b159d95605baef18a8ae6e6b3daf" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>haslo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a019b4a02a9e567683b7ccaa84d2d1cfd" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Haslo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae86fcf6f8e3ac9d52ec0e9b9586341e9" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Haslo1</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a1c541d68924bfdcb6ff6032f054723e9" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>hasloDB</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1abfd346c7010fe7e87bbfab0ab356751b" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>login</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9939c16a44e9655d31039e08b3626298" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Login</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae3bc8abd55310ab6761c20fdd31afe26" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Login1</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a3ef0cf2c4f82c88b91c7deef2a390772" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Logowanie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9909587476916c05bc733d1a834bda25" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Logowanie</scope><name>Zaloguj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

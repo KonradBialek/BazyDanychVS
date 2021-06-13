@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+doc:before {
+  display: block;
+  width: 1000;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Dokumentacja programu \"Aplikacji dostępowej dziennika szkolnego\"";
+  margin: 0px 10px .25em 10px;
+  padding: .1em .25em;
+  background-color: #cdf;
+}
+
+assembly {
+  font-size: 150%;
+  display: block;
+  margin: 2em 1em;
+  }
+name {
+  display: block;
+  margin: 2em 1em;
+  }
+members {
+  background-color: #00FFFF;
+  display: block;
+  margin: 2em 1em;
+  name: display
+ }
+member  {
+  display: block;
+  margin: 2em 1em;
+  }
+summary {
+  display: block;
+  margin: 2em 1em;
+  }
+list  {
+  display: block;
+  margin: 2em 1em;
+  }
+item {
+  display: block;
+  margin: 2em 1em;
+  }
+term {
+  display: block;
+  margin: 2em 1em;
+  }
+description {
+  display: block;
+  margin: 2em 1em;
+  }
+remarks {
+  display: block;
+  margin: 2em 1em;
+  }
+para {
+  display: block;
+  margin: 2em 1em;
+  }
+param  {
+  display: block;
+  margin: 2em 1em;
+  }
+c {
+  margin: 2em 1em;
+  }
+exception {
+  display: block;
+  margin: 2em 1em;
+  }
+returns {
+  display: block;
+  margin: 2em 1em;
+  }
+values {
+  display: block;
+  margin: 2em 1em;
+  }

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_aplikacja_dostepowa_1_1_models" kind="namespace" language="C#">
+    <compoundname>AplikacjaDostepowa::Models</compoundname>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model" prot="public">AplikacjaDostepowa::Models::LekcjaModel</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel" prot="public">AplikacjaDostepowa::Models::Nauczyciel</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" prot="public">AplikacjaDostepowa::Models::UczenNaLekcji</innerclass>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_models_1_1_user" prot="public">AplikacjaDostepowa::Models::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/LekcjaModel.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

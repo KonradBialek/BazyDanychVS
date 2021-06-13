@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['dane_5fosobowe_5fimie_27',['dane_osobowe_Imie',['../class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel.html#ae4b5ac9ac2dfc773d73b5a0ecd86cd06',1,'AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Imie()'],['../class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji.html#ae40f7ca49f24c520ce2e7c9d274e7764',1,'AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Imie()']]],
+  ['dane_5fosobowe_5fnazwisko_28',['dane_osobowe_Nazwisko',['../class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel.html#a8d50a63df4fbb59d512251ab4dc735de',1,'AplikacjaDostepowa.Models.Nauczyciel.dane_osobowe_Nazwisko()'],['../class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji.html#a11f130a19e58fc1245e5b0b58a8df7a8',1,'AplikacjaDostepowa.Models.UczenNaLekcji.dane_osobowe_Nazwisko()']]],
+  ['data_29',['Data',['../class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci.html#a6aebee5589440d1040713e598526904c',1,'AplikacjaDostepowa.Views.Nieobecności.Data()'],['../class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia.html#ae6b488d953339876cd8a744009fa45df',1,'AplikacjaDostepowa.Views.Ogłoszenia.Data()'],['../class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji.html#a5526fafd314b20197f37023bf81b6b22',1,'AplikacjaDostepowa.Views.Plan_lekcji.Data()'],['../class_aplikacja_dostepowa_1_1_views_1_1_terminarz.html#a45de829af444ef6b7fde6ee1c37d4791',1,'AplikacjaDostepowa.Views.Terminarz.Data()'],['../class_aplikacja_dostepowa_1_1_views_1_1_uwagi.html#aa9a1dc5b0d02cf0d06780916372e6d07',1,'AplikacjaDostepowa.Views.Uwagi.Data()']]],
+  ['dodajnieobecność_30',['DodajNieobecność',['../class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87.html',1,'AplikacjaDostepowa.Views.DodajNieobecność'],['../class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87.html#a3ff08567b761ed4b8950b0b09ce330f7',1,'AplikacjaDostepowa.Views.DodajNieobecność.DodajNieobecność()']]],
+  ['dodajnieobecność_2eg_2ecs_31',['DodajNieobecność.g.cs',['../_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8cs.html',1,'']]],
+  ['dodajnieobecność_2eg_2ei_2ecs_32',['DodajNieobecność.g.i.cs',['../_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8i_8cs.html',1,'']]],
+  ['dodajnieobecność_2examl_2ecs_33',['DodajNieobecność.xaml.cs',['../_dodaj_nieobecno_xC5_x9B_xC4_x87_8xaml_8cs.html',1,'']]],
+  ['dodajuwagę_34',['DodajUwagę',['../class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99.html',1,'AplikacjaDostepowa.Views.DodajUwagę'],['../class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99.html#a058a86f17fe8dcffdede0b03cb30127f',1,'AplikacjaDostepowa.Views.DodajUwagę.DodajUwagę()']]],
+  ['dodajuwagę_2eg_2ecs_35',['DodajUwagę.g.cs',['../_dodaj_uwag_xC4_x99_8g_8cs.html',1,'']]],
+  ['dodajuwagę_2eg_2ei_2ecs_36',['DodajUwagę.g.i.cs',['../_dodaj_uwag_xC4_x99_8g_8i_8cs.html',1,'']]],
+  ['dodajuwagę_2examl_2ecs_37',['DodajUwagę.xaml.cs',['../_dodaj_uwag_xC4_x99_8xaml_8cs.html',1,'']]],
+  ['dodawanieoceny_38',['DodawanieOceny',['../class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny.html',1,'AplikacjaDostepowa.Views.DodawanieOceny'],['../class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny.html#a19da1af0b0cd98b335ee5a4bc03f040a',1,'AplikacjaDostepowa.Views.DodawanieOceny.DodawanieOceny()']]],
+  ['dodawanieoceny_2eg_2ecs_39',['DodawanieOceny.g.cs',['../_dodawanie_oceny_8g_8cs.html',1,'']]],
+  ['dodawanieoceny_2eg_2ei_2ecs_40',['DodawanieOceny.g.i.cs',['../_dodawanie_oceny_8g_8i_8cs.html',1,'']]],
+  ['dodawanieoceny_2examl_2ecs_41',['DodawanieOceny.xaml.cs',['../_dodawanie_oceny_8xaml_8cs.html',1,'']]],
+  ['dodawanieogłoszenia_42',['DodawanieOgłoszenia',['../class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia.html',1,'AplikacjaDostepowa.Views.DodawanieOgłoszenia'],['../class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia.html#a039ad022d518333cbdaa833c7967d6c9',1,'AplikacjaDostepowa.Views.DodawanieOgłoszenia.DodawanieOgłoszenia()']]],
+  ['dodawanieogłoszenia_2eg_2ecs_43',['DodawanieOgłoszenia.g.cs',['../_dodawanie_og_xC5_x82oszenia_8g_8cs.html',1,'']]],
+  ['dodawanieogłoszenia_2eg_2ei_2ecs_44',['DodawanieOgłoszenia.g.i.cs',['../_dodawanie_og_xC5_x82oszenia_8g_8i_8cs.html',1,'']]],
+  ['dodawanieogłoszenia_2examl_2ecs_45',['DodawanieOgłoszenia.xaml.cs',['../_dodawanie_og_xC5_x82oszenia_8xaml_8cs.html',1,'']]]
+];

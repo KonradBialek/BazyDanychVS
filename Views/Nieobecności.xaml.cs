@@ -17,10 +17,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Nieobecności.xaml
+    /// Klasa <c>Nieobecności</c> zawiera metody pozwalające na odczyt nieobecności.
     /// </summary>
     public partial class Nieobecności : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy Nieobecności, pobiera podsumowanie oparte o uczniów, klas i lekcje, ustawia widoczność przycisku dodania nieobecności.
+        /// </summary>
         public Nieobecności()
         {
             DataContext = this;
@@ -29,7 +32,9 @@ namespace AplikacjaDostepowa.Views
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
             DodajButton.Visibility = user.Typ == UserType.Nauczyciel ? Visibility.Visible : Visibility.Collapsed;
         }
-
+        /// <summary>
+        /// Pobór tabeli dotyczącej nieobecności z bazy danych.
+        /// </summary>
         public DataTable Data
         {
             get
@@ -51,6 +56,9 @@ namespace AplikacjaDostepowa.Views
                 else return null;
             }
         }
+        /// <summary>
+        /// Pobór podsumowania dotyczącego średniej z ocen.
+        /// </summary>
         public void LoadSummary()
         {
             string query;
@@ -77,6 +85,12 @@ LEFT JOIN lekcja l on k.roczny_plan_lekcji_id = l.roczny_plan_lekcji_id) as suma
                 $"Nieobecności: {data["nieobecnosci"]}\r\n" +
                 $"W tym nieusprawiedliwione: {data["nieobecnosci_nieusprawiedliwione"]}";
         }
+
+        /// <summary>
+        /// Przejście do okna dodania nieobecności po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((MainWindow)Application.Current.MainWindow).DataContext = new DodajNieobecność();

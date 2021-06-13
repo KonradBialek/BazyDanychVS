@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_4b1ad5912d97d8053d8208e4de9da318" kind="dir">
+    <compoundname>G:/sem6/BAZY</compoundname>
+    <innerdir refid="dir_470f0d6df5ae39f78bcdf5aa14920dab">G:/sem6/BAZY/Models</innerdir>
+    <innerdir refid="dir_9201aa121d62030076eb3560d35c2f0d">G:/sem6/BAZY/obj</innerdir>
+    <innerdir refid="dir_cb9cb0175eb8a59dc5c4bcca331ab1f4">G:/sem6/BAZY/packages</innerdir>
+    <innerdir refid="dir_7e94ca5f8c4b7d0017f6779957463b29">G:/sem6/BAZY/Properties</innerdir>
+    <innerdir refid="dir_179e89dab0875d32b3e24eb44ebf0b31">G:/sem6/BAZY/Views</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_baza_danych_8cs">BazaDanych.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/"/>
+  </compounddef>
+</doxygen>

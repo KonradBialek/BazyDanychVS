@@ -17,15 +17,21 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Terminarz.xaml
+    /// Klasa <c>Terminarz</c> zawiera metody pozwalające na odczyt terminarza.
     /// </summary>
     public partial class Terminarz : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy Terminarz.
+        /// </summary>
         public Terminarz()
         {
             DataContext = this;
             InitializeComponent();
         }
+        /// <summary>
+        /// Pobór tabeli dotyczącej terminarza z bazy danych.
+        /// </summary>
         public DataTable Data => BazaDanych.GetTable("SELECT * FROM terminarz");
     }
 }

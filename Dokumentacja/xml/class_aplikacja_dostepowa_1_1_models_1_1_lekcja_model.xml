@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Models::LekcjaModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1a67bb4a4b3f392dfe22b6bfbb9231d303" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.LekcjaModel.temat</definition>
+        <argsstring></argsstring>
+        <name>temat</name>
+        <briefdescription>
+<para>Pobiera temat lekcji.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/LekcjaModel.cs" line="17" column="23" bodyfile="G:/sem6/BAZY/Models/LekcjaModel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1aa0992d346b5f829247938b10667448eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.LekcjaModel.przedmiot_nazwa</definition>
+        <argsstring></argsstring>
+        <name>przedmiot_nazwa</name>
+        <briefdescription>
+<para>Pobiera nazwę przedmiotu.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/LekcjaModel.cs" line="21" column="23" bodyfile="G:/sem6/BAZY/Models/LekcjaModel.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model" kindref="compound">LekcjaModel</ref></computeroutput> zawiera właściwości opisujące temat lekcji i przedmiot, z którego jest lekcja. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/LekcjaModel.cs" line="13" column="5" bodyfile="G:/sem6/BAZY/Models/LekcjaModel.cs" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1aa0992d346b5f829247938b10667448eb" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::LekcjaModel</scope><name>przedmiot_nazwa</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1a67bb4a4b3f392dfe22b6bfbb9231d303" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::LekcjaModel</scope><name>temat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

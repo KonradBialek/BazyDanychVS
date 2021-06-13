@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_main_window_1ad92ff77d0c56192953a6e078a91a55b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_user" kindref="compound">User</ref></type>
+        <definition>User AplikacjaDostepowa.MainWindow.LoggedUser</definition>
+        <argsstring></argsstring>
+        <name>LoggedUser</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Pobiera dane użytkownika zalogowanego w procesie logowania.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="144" column="21" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1ae743fdfca102fc11b818c3cc9bb9a4c2" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button AplikacjaDostepowa.MainWindow::ArchiwumButton</definition>
+        <argsstring></argsstring>
+        <name>ArchiwumButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="47" column="46" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1a0725c1fd98aea39f98d6ff1216f80d5a" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button AplikacjaDostepowa.MainWindow::AdminButton</definition>
+        <argsstring></argsstring>
+        <name>AdminButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="55" column="46" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1afe8502f667422b7b63403e68c380f08a" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button AplikacjaDostepowa.MainWindow::LekcjaButton</definition>
+        <argsstring></argsstring>
+        <name>LekcjaButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="63" column="46" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1abd3f1ecfa6468276241677438c420a64" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBlock</type>
+        <definition>System Windows Controls TextBlock AplikacjaDostepowa.MainWindow::UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="71" column="49" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1ad0d0e07e26aa22a5d0f7ca6708a2a9d7" prot="package" static="no" mutable="no">
+        <type><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kindref="compound">AplikacjaDostepowa.Views.Logowanie</ref></type>
+        <definition>AplikacjaDostepowa Views Logowanie AplikacjaDostepowa.MainWindow::Logowanie</definition>
+        <argsstring></argsstring>
+        <name>Logowanie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="79" column="51" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_main_window_1a595d8a04b7d1ad5f6d96d1aa7267520a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="84" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1aba7029ff087aecc1f7dfa113ca4aab5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_main_window" kindref="compound">MainWindow</ref>, uruchamia ekran logowania. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="31" column="16" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a5cd2ca2271db26e8a2f329b09c1fed01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Zaloguj</definition>
+        <argsstring>(User qwe)</argsstring>
+        <name>Zaloguj</name>
+        <param>
+          <type><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>qwe</declname>
+        </param>
+        <briefdescription>
+<para>Przeprowadza proces logowania. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>qwe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dane użytkownika</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="41" column="21" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a253991aef3521604b213e985c1086010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_user" kindref="compound">User</ref></type>
+        <definition>User AplikacjaDostepowa.MainWindow.UserInBase</definition>
+        <argsstring>(string login, string haslo)</argsstring>
+        <name>UserInBase</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>haslo</declname>
+        </param>
+        <briefdescription>
+<para>Wyszukuje użytkownika w bazie. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>login użytkownika</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>haslo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>hasło użytkownika</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>zalogowany użytkownik</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="152" column="21" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="152" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="91" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="91" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" line="91" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" bodystart="91" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1ac4f9f589d43e29ad2442216cece269a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Oceny</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Oceny</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Oceny </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="57" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a543a9749266ae4439547cb0296b83cc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Nieobecnośći</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Nieobecnośći</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Nieobecnośći </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="66" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a46a900f9966e5b453ccf1b3f1eae2b0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Ogłoszenia</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Ogłoszenia</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Ogłoszenia </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="75" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1ac34ad24c354750f08c7aac5346262525" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Terminarz</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Terminarz</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Terminarz </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="84" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1aad07fbfb084f78a943f97db053c59fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Uwagi</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Uwagi</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Uwagi </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="93" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a910b4730b62b4e16075d4a6e9a0429ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Plan_lekcji</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Plan_lekcji</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Plan_lekcji </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="102" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a88ba7ff3ac1aef5d9c24297b6dbd9b42" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Archiwum</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Archiwum</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Archiwum </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="111" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a5b009a573f0ca9f8f2c39581b984cfcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Wyloguj</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Wyloguj</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Wylogowywuje użytkownika. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="120" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1ace10e5bda057f661c4ae5a74f3f9c556" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Admin</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Admin</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Admin </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="130" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a2df23407415a9969e3c860f7ecbfd318" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.MainWindow.Lekcja</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Lekcja</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Uruchamia zakładkę Lekcja </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="139" column="22" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="118" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="118" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" line="118" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" bodystart="118" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate AplikacjaDostepowa.MainWindow._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" line="108" column="33" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.cs" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate AplikacjaDostepowa.MainWindow._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" line="108" column="33" bodyfile="G:/sem6/BAZY/obj/Debug/MainWindow.g.i.cs" bodystart="108" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_main_window" kindref="compound">MainWindow</ref></computeroutput> zawiera metody pozwalające na obsługę zakładek aplikacji. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_main_window" kindref="compound">MainWindow</ref></para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.MainWindow</label>
+        <link refid="class_aplikacja_dostepowa_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.MainWindow</label>
+        <link refid="class_aplikacja_dostepowa_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>AdminButton</edgelabel>
+          <edgelabel>ArchiwumButton</edgelabel>
+          <edgelabel>LekcjaButton</edgelabel>
+          <edgelabel>UserName</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Logowanie</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="6">
+        <label>AplikacjaDostepowa</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/MainWindow.xaml.cs" line="26" column="19" bodyfile="G:/sem6/BAZY/MainWindow.xaml.cs" bodystart="27" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a595d8a04b7d1ad5f6d96d1aa7267520a" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>_CreateDelegate</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>_CreateDelegate</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ace10e5bda057f661c4ae5a74f3f9c556" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Admin</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a0725c1fd98aea39f98d6ff1216f80d5a" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>AdminButton</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a88ba7ff3ac1aef5d9c24297b6dbd9b42" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Archiwum</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ae743fdfca102fc11b818c3cc9bb9a4c2" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>ArchiwumButton</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a2df23407415a9969e3c860f7ecbfd318" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Lekcja</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1afe8502f667422b7b63403e68c380f08a" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>LekcjaButton</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ad92ff77d0c56192953a6e078a91a55b1" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>LoggedUser</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ad0d0e07e26aa22a5d0f7ca6708a2a9d7" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Logowanie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1aba7029ff087aecc1f7dfa113ca4aab5b" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a543a9749266ae4439547cb0296b83cc8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Nieobecnośći</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac4f9f589d43e29ad2442216cece269a9" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Oceny</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a46a900f9966e5b453ccf1b3f1eae2b0c" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Ogłoszenia</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a910b4730b62b4e16075d4a6e9a0429ca" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Plan_lekcji</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac34ad24c354750f08c7aac5346262525" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Terminarz</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a253991aef3521604b213e985c1086010" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>UserInBase</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1abd3f1ecfa6468276241677438c420a64" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>UserName</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1aad07fbfb084f78a943f97db053c59fff" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Uwagi</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a5b009a573f0ca9f8f2c39581b984cfcf" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Wyloguj</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_main_window_1a5cd2ca2271db26e8a2f329b09c1fed01" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::MainWindow</scope><name>Zaloguj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

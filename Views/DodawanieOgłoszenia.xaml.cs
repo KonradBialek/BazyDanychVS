@@ -17,15 +17,22 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Interaction logic for DodawanieOgłoszenia.xaml
+    /// Klasa <c>DodawanieOgłoszenia</c> zawiera metodę pozwalającą na dodawanie ogłoszenia.
     /// </summary>
     public partial class DodawanieOgłoszenia : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy DodawanieOceny, pobiera tabelę uczniów i przedmiotów.
+        /// </summary>
         public DodawanieOgłoszenia()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Dodanie ogłoszenia po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             BazaDanych.Execute("INSERT INTO informacje (tresc) VALUES (@tresc)",

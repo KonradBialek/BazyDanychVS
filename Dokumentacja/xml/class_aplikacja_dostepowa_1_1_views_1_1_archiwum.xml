@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Archiwum</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a05abfde18b311c4e72ae2378f2aed609" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Archiwum::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" line="43" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Archiwum.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" line="50" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Archiwum.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.i.cs" line="50" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a5b2a23b135b2a69e7ea2c9741d6daf02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Archiwum.Archiwum</definition>
+        <argsstring>()</argsstring>
+        <name>Archiwum</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" kindref="compound">Archiwum</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Archiwum.xaml.cs" line="28" column="16" bodyfile="G:/sem6/BAZY/Views/Archiwum.xaml.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Archiwum.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" line="70" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" bodystart="70" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Archiwum.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.i.cs" line="70" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.i.cs" bodystart="70" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a55570f5063b033c3f1bc667a2018aa42" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Archiwum.Archiwizuj</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Archiwizuj</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Wywołanie zapisu do archiwum. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Archiwum.xaml.cs" line="37" column="22" bodyfile="G:/sem6/BAZY/Views/Archiwum.xaml.cs" bodystart="37" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a50ea8ad1e3d503ff8b339048e99122c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Archiwum.Przywroc</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Przywroc</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Wywołanie przywrócenia z archiwum. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Archiwum.xaml.cs" line="70" column="22" bodyfile="G:/sem6/BAZY/Views/Archiwum.xaml.cs" bodystart="70" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" kindref="compound">Archiwum</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" kindref="compound">Archiwum</ref></computeroutput> zapis i przywrócenie archiwum bazy danych.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Archiwum</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Archiwum</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Archiwum.g.cs" bodystart="41" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a05abfde18b311c4e72ae2378f2aed609" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a55570f5063b033c3f1bc667a2018aa42" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>Archiwizuj</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a5b2a23b135b2a69e7ea2c9741d6daf02" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>Archiwum</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a50ea8ad1e3d503ff8b339048e99122c8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Archiwum</scope><name>Przywroc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

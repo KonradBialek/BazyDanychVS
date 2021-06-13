@@ -19,14 +19,21 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Lekcja.xaml
+    /// Klasa <c>Lekcja</c> zawiera metody pozwalające na dodawanie lekcji.
     /// </summary>
     public partial class Lekcja : UserControl
     {
+        /// <value>Zawiera dzień tygodnia.</value>
         private string dzienTygodnia;
+        /// <value>Zawiera model lekcji.</value>
         private LekcjaModel lekcja;
+        /// <value>Zawiera listę klas.</value>
         private List<Dictionary<string, object>> Klasy;
+        /// <value>Zawiera tydzień roboczy.</value>
         static Dictionary<DayOfWeek, string> week = new Dictionary<DayOfWeek, string> { { DayOfWeek.Monday, "Poniedzialek" }, { DayOfWeek.Tuesday, "Wtorek" }, { DayOfWeek.Wednesday, "Sroda" }, { DayOfWeek.Thursday, "Czwartek" }, { DayOfWeek.Friday, "Piatek" }, { DayOfWeek.Saturday, "Sobota" }, { DayOfWeek.Sunday, "Niedziela" } };
+        /// <summary>
+        /// Konstruktor klasy Lekcja, pobiera przedmioty i klasy.
+        /// </summary>
         public Lekcja()
         {
             dzienTygodnia = week[DateTime.Now.DayOfWeek];
@@ -35,10 +42,15 @@ namespace AplikacjaDostepowa.Views
             DataContext = this;
             InitializeComponent();
         }
+        /// <value>Pobiera listę klas.</value>
         public List<string> KlasyNazwy => Klasy.Select(x => x["oznaczenie"] as string).ToList();
 
+        /// <value>Pobiera listę przedmiotów.</value>
         public List<string> Przedmioty { get; private set; }
 
+        /// <summary>
+        /// Wczytanie numerów lekcji.
+        /// </summary>
         void LoadNumbers()
         {
             numerCombo.ItemsSource = BazaDanych.ReadAsArray(@"SELECT biezacy_szablon_lekcji_nr_w_dniu From klasa k
@@ -46,10 +58,16 @@ join roczny_plan_lekcji_has_biezacy_szablon_lekcji rplhbsl on k.roczny_plan_lekc
 WHERE k.oznaczenie = @klasa AND biezacy_szablon_lekcji_dzien_w_tyg = @dzien", new MySqlParameter("klasa", klasaCombo.SelectedItem as string), new MySqlParameter("dzien", dzienTygodnia)).Select(x => (int)x[0]).ToList();
 
         }
+        /// <summary>
+        /// Wczytanie przedmiotów.
+        /// </summary>
         void LoadPrzedmioty()
         {
             Przedmioty = BazaDanych.ReadAsArray(@"SELECT nazwa From przedmiot").Select(x => (string)x[0]).ToList();
         }
+        /// <summary>
+        /// Wczytanie uczniów.
+        /// </summary>
         void LoadPeople()
         {
             var uczniowie = BazaDanych.ReadAsClass<UczenNaLekcji>(@"SELECT dane_osobowe_Imie, dane_osobowe_Nazwisko, nr_w_dzienniku From klasa k
@@ -62,6 +80,9 @@ ORDER BY nr_w_dzienniku ASC", new MySqlParameter("klasa", klasaCombo.SelectedIte
                 listaUczniow.Children.Add(new UczenNaLekcjiKontrolka(uczen));
             }
         }
+        /// <summary>
+        /// Wczytanie lekcji.
+        /// </summary>
         void LoadLesson()
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
@@ -75,6 +96,11 @@ WHERE data_dnia = @data AND biezacy_szablon_lekcji_nr_w_dniu = @nr AND roczny_pl
             Temat.Text = lekcja.temat;
             przedmiotCombo.SelectedItem = lekcja.przedmiot_nazwa;
         }
+        /// <summary>
+        /// Wyświetlenie numerów lekcji, uczniów i lekcji.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void klasaCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             LoadNumbers();
@@ -85,6 +111,11 @@ WHERE data_dnia = @data AND biezacy_szablon_lekcji_nr_w_dniu = @nr AND roczny_pl
             }
         }
 
+        /// <summary>
+        /// Dodanie lekcji po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
@@ -109,7 +140,11 @@ WHERE data_dnia = @data AND biezacy_szablon_lekcji_nr_w_dniu = @nr AND roczny_pl
                 MessageBox.Show("Dodano lekcję.");
             }
         }
-
+        /// <summary>
+        /// Zmiana wybranego numeru lekcji.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void numerCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (klasaCombo.SelectedItem != null && numerCombo.SelectedItem != null)

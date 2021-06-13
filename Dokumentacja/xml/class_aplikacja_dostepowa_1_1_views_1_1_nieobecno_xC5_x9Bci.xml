@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Nieobecności</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a28c930c9c5a93d7baa62b5f7b9b9bfb5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid AplikacjaDostepowa.Views.Nieobecności::dataGrid1</definition>
+        <argsstring></argsstring>
+        <name>dataGrid1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a87b763c9e7c0bdb7de3aec4b7d9b7071" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBlock</type>
+        <definition>System Windows Controls TextBlock AplikacjaDostepowa.Views.Nieobecności::Podsumowanie</definition>
+        <argsstring></argsstring>
+        <name>Podsumowanie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="54" column="49" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a42990119d61c085548b8ceef551bff57" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button AplikacjaDostepowa.Views.Nieobecności::DodajButton</definition>
+        <argsstring></argsstring>
+        <name>DodajButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="62" column="46" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a7f8c05c23ea10569d0b065e3ec2e01ad" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Nieobecności::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="67" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a6aebee5589440d1040713e598526904c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DataTable</type>
+        <definition>DataTable AplikacjaDostepowa.Views.Nieobecności.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+<para>Pobór tabeli dotyczącej nieobecności z bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" line="38" column="26" bodyfile="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" bodystart="39" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Nieobecności.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="74" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Nieobecności.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.i.cs" line="74" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.i.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a132c9ee739c26d11ecaac26f4daa2955" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Nieobecności.Nieobecności</definition>
+        <argsstring>()</argsstring>
+        <name>Nieobecności</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" kindref="compound">Nieobecności</ref>, pobiera podsumowanie oparte o uczniów, klas i lekcje, ustawia widoczność przycisku dodania nieobecności. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" line="27" column="16" bodyfile="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a61dc435fdc2fb9786fc2b868ad299a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Nieobecności.LoadSummary</definition>
+        <argsstring>()</argsstring>
+        <name>LoadSummary</name>
+        <briefdescription>
+<para>Pobór podsumowania dotyczącego średniej z ocen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" line="62" column="21" bodyfile="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" bodystart="62" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Nieobecności.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="94" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="94" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Nieobecności.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.i.cs" line="94" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.i.cs" bodystart="94" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a8a1a8dfba5a63333e18e17036e9f486c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Nieobecności.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Przejście do okna dodania nieobecności po wciśnięciu przycisku. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" line="94" column="22" bodyfile="G:/sem6/BAZY/Views/Nieobecności.xaml.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" kindref="compound">Nieobecności</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" kindref="compound">Nieobecności</ref></computeroutput> zawiera metody pozwalające na odczyt nieobecności.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Nieobecności</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Nieobecności</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>DodajButton</edgelabel>
+          <edgelabel>Podsumowanie</edgelabel>
+          <edgelabel>dataGrid1</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Nieobecności.g.cs" bodystart="41" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a7f8c05c23ea10569d0b065e3ec2e01ad" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a8a1a8dfba5a63333e18e17036e9f486c" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a6aebee5589440d1040713e598526904c" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Data</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a28c930c9c5a93d7baa62b5f7b9b9bfb5" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>dataGrid1</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a42990119d61c085548b8ceef551bff57" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>DodajButton</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a61dc435fdc2fb9786fc2b868ad299a83" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>LoadSummary</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a132c9ee739c26d11ecaac26f4daa2955" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Nieobecności</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a87b763c9e7c0bdb7de3aec4b7d9b7071" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Nieobecności</scope><name>Podsumowanie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

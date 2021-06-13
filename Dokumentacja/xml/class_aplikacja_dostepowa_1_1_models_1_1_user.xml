@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_models_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Models::User</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1abea2f5bc5024c4558b897b01099fac7e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AplikacjaDostepowa.Models.User.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Pobiera indeks użytkownika.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="23" column="20" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1a79d7c142055870269255b6b1d4b59fad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.User.Imie</definition>
+        <argsstring></argsstring>
+        <name>Imie</name>
+        <briefdescription>
+<para>Pobiera imię użytkownika.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="26" column="23" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1a4b9a3fa3d6e13a1bbb3ff7585e902223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.User.Nazwisko</definition>
+        <argsstring></argsstring>
+        <name>Nazwisko</name>
+        <briefdescription>
+<para>Pobiera nazwisko użytkownika.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="29" column="23" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1ac543d5f8052fb334cf8793e945ff1de9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Models.User.Klasa</definition>
+        <argsstring></argsstring>
+        <name>Klasa</name>
+        <briefdescription>
+<para>Pobiera oznaczenie klasy.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="32" column="23" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1a73a7ac5a4ac00fe876167c5ed3686f7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_aplikacja_dostepowa_1ad4ba4dc561280ae02ebce78dfe94ccc8" kindref="member">UserType</ref></type>
+        <definition>UserType AplikacjaDostepowa.Models.User.Typ</definition>
+        <argsstring></argsstring>
+        <name>Typ</name>
+        <briefdescription>
+<para>Pobiera typ użytkownika.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="34" column="25" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1a3afd4f3f28acbdabe880a8c3c88fa4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Models.User.IsAdmin</definition>
+        <argsstring></argsstring>
+        <name>IsAdmin</name>
+        <briefdescription>
+<para>Pobiera informację czy użytkownik jet administratorem.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="36" column="21" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_models_1_1_user_1ae8cf90621dd8c6e2106a323e8d072cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string AplikacjaDostepowa.Models.User.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Metoda wykorzystująca typ użytkownika korzystającego z aplikacji do odpowiedniego formatowania i wyświetlania jego danych. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Odpowiednio sformatowany tekst lub pusty ciąg znaków.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Models/User.cs" line="42" column="32" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_user" kindref="compound">User</ref></computeroutput> zawiera właściwości opisujące użytkownika i metodę formatowania wyświetlania jego danych osobowych. <itemizedlist>
+<listitem>
+<para>ToString  Metoda wykorzystująca typ użytkownika korzystającego z aplikacji do odpowiedniego formatowania i wyświetlania jego danych.  </para>
+</listitem>
+</itemizedlist>
+</para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/User.cs" line="19" column="11" bodyfile="G:/sem6/BAZY/Models/User.cs" bodystart="20" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1abea2f5bc5024c4558b897b01099fac7e" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>ID</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a79d7c142055870269255b6b1d4b59fad" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>Imie</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a3afd4f3f28acbdabe880a8c3c88fa4ec" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>IsAdmin</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1ac543d5f8052fb334cf8793e945ff1de9" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>Klasa</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a4b9a3fa3d6e13a1bbb3ff7585e902223" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>Nazwisko</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1ae8cf90621dd8c6e2106a323e8d072cba" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>ToString</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a73a7ac5a4ac00fe876167c5ed3686f7d" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Models::User</scope><name>Typ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

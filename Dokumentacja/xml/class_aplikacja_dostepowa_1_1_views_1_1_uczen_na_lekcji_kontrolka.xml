@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a4671048f3dc4ebd6fbfd15c20e49a0a7" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBlock</type>
+        <definition>System Windows Controls TextBlock AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka::ImieNazwisko</definition>
+        <argsstring></argsstring>
+        <name>ImieNazwisko</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" line="46" column="49" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a13b23c72e32db3a7fa540814ed90e3e8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" line="51" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" line="58" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.i.cs" line="58" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.i.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1af3e16037b7514c1976ac89c3581a013f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.UczenNaLekcjiKontrolka</definition>
+        <argsstring>(UczenNaLekcji uczen)</argsstring>
+        <name>UczenNaLekcjiKontrolka</name>
+        <param>
+          <type><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" kindref="compound">UczenNaLekcji</ref></type>
+          <declname>uczen</declname>
+        </param>
+        <briefdescription>
+<para>Ustawienie danych ucznia do wyświetlenia na liście klasy </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uczen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dane ucznia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/UczenNaLekcjiKontrolka.xaml.cs" line="28" column="16" bodyfile="G:/sem6/BAZY/Views/UczenNaLekcjiKontrolka.xaml.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" line="78" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.i.cs" line="78" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.i.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka" kindref="compound">UczenNaLekcjiKontrolka</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka" kindref="compound">UczenNaLekcjiKontrolka</ref></computeroutput> zawiera metodę pozwalającą na ustawienie danych ucznia do wyświetlenia na liście klasy.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.UczenNaLekcjiKontrolka</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ImieNazwisko</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/UczenNaLekcjiKontrolka.g.cs" bodystart="41" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a13b23c72e32db3a7fa540814ed90e3e8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a4671048f3dc4ebd6fbfd15c20e49a0a7" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>ImieNazwisko</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1af3e16037b7514c1976ac89c3581a013f" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</scope><name>UczenNaLekcjiKontrolka</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

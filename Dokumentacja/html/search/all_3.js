@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['createdelegate_23',['CreateDelegate',['../class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a8ec4c37e82d9f4e867e9655f4eac3a78',1,'XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type delegateType, object target, string handler)'],['../class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a8ec4c37e82d9f4e867e9655f4eac3a78',1,'XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type delegateType, object target, string handler)']]],
+  ['createinstance_24',['CreateInstance',['../class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#aefb7a98fceb9c287cef4756942f441d1',1,'XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type type, System.Globalization.CultureInfo culture)'],['../class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#aefb7a98fceb9c287cef4756942f441d1',1,'XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type type, System.Globalization.CultureInfo culture)']]],
+  ['current_25',['Current',['../class_aplikacja_dostepowa_1_1_views_1_1_oceny.html#a24c84b17a14120a3a8408207b734918c',1,'AplikacjaDostepowa::Views::Oceny']]],
+  ['czy_5fadmin_26',['czy_admin',['../class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel.html#a4506b972dbb620ca3bb80500ac4ec2cf',1,'AplikacjaDostepowa::Models::Nauczyciel']]]
+];

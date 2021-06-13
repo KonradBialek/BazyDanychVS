@@ -18,16 +18,22 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Archiwum.xaml
+    /// Klasa <c>Archiwum</c> zapis i przywrócenie archiwum bazy danych.
     /// </summary>
     public partial class Archiwum : UserControl
     {
-
+        /// <summary>
+        /// Konstruktor klasy Archiwum.
+        /// </summary>
         public Archiwum()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Wywołanie zapisu do archiwum.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Archiwizuj(object sender, RoutedEventArgs e)
         {
             var dialog = new SaveFileDialog();
@@ -56,7 +62,11 @@ namespace AplikacjaDostepowa.Views
                 }
             }
         }
-
+        /// <summary>
+        /// Wywołanie przywrócenia z archiwum.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Przywroc(object sender, RoutedEventArgs e)
         {
             var dialog = new OpenFileDialog();

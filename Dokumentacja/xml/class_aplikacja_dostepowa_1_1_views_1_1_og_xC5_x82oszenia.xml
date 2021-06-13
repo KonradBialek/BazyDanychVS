@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Ogłoszenia</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0304eba5aeefa528cd29f943bb8783b6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid AplikacjaDostepowa.Views.Ogłoszenia::dataGrid1</definition>
+        <argsstring></argsstring>
+        <name>dataGrid1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ad769fdddc0f414d9eb0bb31789eb5d67" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button AplikacjaDostepowa.Views.Ogłoszenia::DodajButton</definition>
+        <argsstring></argsstring>
+        <name>DodajButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="54" column="46" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a8d4d17abe51c8034c39d729528b426cd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Ogłoszenia::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="59" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ae6b488d953339876cd8a744009fa45df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DataTable</type>
+        <definition>DataTable AplikacjaDostepowa.Views.Ogłoszenia.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+<para>Pobór tabeli dotyczącej ogłoszeń z bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" line="37" column="26" bodyfile="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Ogłoszenia.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="66" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Ogłoszenia.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.i.cs" line="66" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a4bae6184ba1c545c595ea49d69423d66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Ogłoszenia.Ogłoszenia</definition>
+        <argsstring>()</argsstring>
+        <name>Ogłoszenia</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" kindref="compound">Ogłoszenia</ref>, ustawia widoczność przycisku dodania ogłoszenia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" line="27" column="16" bodyfile="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" bodystart="27" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Ogłoszenia.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="86" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="86" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Ogłoszenia.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.i.cs" line="86" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.i.cs" bodystart="86" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0334eea1b8b29c123129c1ba199ed1c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Ogłoszenia.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Przejście do okna dodania ogłoszeń po wciśnięciu przycisku. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" line="44" column="22" bodyfile="G:/sem6/BAZY/Views/Ogłoszenia.xaml.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" kindref="compound">Ogłoszenia</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" kindref="compound">Ogłoszenia</ref></computeroutput> zawiera metody pozwalające na odczyt ogłoszeń.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Ogłoszenia</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Ogłoszenia</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>DodajButton</edgelabel>
+          <edgelabel>dataGrid1</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Ogłoszenia.g.cs" bodystart="41" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a8d4d17abe51c8034c39d729528b426cd" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0334eea1b8b29c123129c1ba199ed1c8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ae6b488d953339876cd8a744009fa45df" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>Data</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0304eba5aeefa528cd29f943bb8783b6" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>dataGrid1</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ad769fdddc0f414d9eb0bb31789eb5d67" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>DodajButton</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a4bae6184ba1c545c595ea49d69423d66" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Ogłoszenia</scope><name>Ogłoszenia</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

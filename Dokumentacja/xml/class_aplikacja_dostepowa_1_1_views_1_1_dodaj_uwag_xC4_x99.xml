@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::DodajUwagę</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a33500f251d76c2f442f897db47f0c517" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.DodajUwagę::Uczen</definition>
+        <argsstring></argsstring>
+        <name>Uczen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1af269289d914cff3f905dcccedef74285" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.DodajUwagę::Tresc</definition>
+        <argsstring></argsstring>
+        <name>Tresc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="54" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a7890c03b5e97d130f5f860ab32c253e5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.DodajUwagę::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="59" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1acce309553d91bec35c4dbf5ee1c81701" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; ComboBoxItem &gt;</type>
+        <definition>List&lt;ComboBoxItem&gt; AplikacjaDostepowa.Views.DodajUwagę.Uczniowie</definition>
+        <argsstring></argsstring>
+        <name>Uczniowie</name>
+        <initializer>SELECT dane_osobowe_Imie, dane_osobowe_Nazwisko, iducznia FROM uczen ORDER BY nr_w_dzienniku ASC&quot;</initializer>
+        <briefdescription>
+<para>Pobiera listę uczniów.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" line="35" column="21" bodyfile="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodajUwagę.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="66" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodajUwagę.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.i.cs" line="66" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a058a86f17fe8dcffdede0b03cb30127f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.DodajUwagę.DodajUwagę</definition>
+        <argsstring>()</argsstring>
+        <name>DodajUwagę</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" kindref="compound">DodajUwagę</ref>, pobiera tabelę uczniów. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" line="27" column="16" bodyfile="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.DodajUwagę.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="86" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="86" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.DodajUwagę.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.i.cs" line="86" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.i.cs" bodystart="86" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a23edbaa768e520af5bc34995490c6476" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.DodajUwagę.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie uwagi po wciśnięciu przycisku. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" line="41" column="22" bodyfile="G:/sem6/BAZY/Views/DodajUwagę.xaml.cs" bodystart="41" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" kindref="compound">DodajUwagę</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" kindref="compound">DodajUwagę</ref></computeroutput> zawiera metody pozwalające na dodawanie uwagi.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.DodajUwagę</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.DodajUwagę</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Tresc</edgelabel>
+          <edgelabel>Uczen</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/DodajUwagę.g.cs" bodystart="41" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a7890c03b5e97d130f5f860ab32c253e5" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a23edbaa768e520af5bc34995490c6476" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a058a86f17fe8dcffdede0b03cb30127f" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>DodajUwagę</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1af269289d914cff3f905dcccedef74285" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Tresc</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a33500f251d76c2f442f897db47f0c517" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Uczen</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1acce309553d91bec35c4dbf5ee1c81701" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::DodajUwagę</scope><name>Uczniowie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

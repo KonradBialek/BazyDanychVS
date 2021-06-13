@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_uczen_na_lekcji_8cs" kind="file" language="C#">
+    <compoundname>UczenNaLekcji.cs</compoundname>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" prot="public">AplikacjaDostepowa::Models::UczenNaLekcji</innerclass>
+    <innernamespace refid="namespace_aplikacja_dostepowa">AplikacjaDostepowa</innernamespace>
+    <innernamespace refid="namespace_aplikacja_dostepowa_1_1_models">AplikacjaDostepowa::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.ComponentModel.DataAnnotations;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_aplikacja_dostepowa_1_1_models" kindref="compound">AplikacjaDostepowa.Models</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" kindref="compound">UczenNaLekcji</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[StringLength(20,<sp/>ErrorMessage<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Imię<sp/>ucznia<sp/>jest<sp/>zbyt<sp/>długie.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1ae40f7ca49f24c520ce2e7c9d274e7764" kindref="member">dane_osobowe_Imie</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[StringLength(25,<sp/>ErrorMessage<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Nazwisko<sp/>ucznia<sp/>jest<sp/>zbyt<sp/>długie.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a11f130a19e58fc1245e5b0b58a8df7a8" kindref="member">dane_osobowe_Nazwisko</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Range(0,<sp/>25,<sp/>ErrorMessage<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Nieprawidłowy<sp/>nr<sp/>w<sp/>dzienniku<sp/>ucznia.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a8553f4952eb316f53550ba201b11e0cd" kindref="member">nr_w_dzienniku</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="G:/sem6/BAZY/Models/UczenNaLekcji.cs"/>
+  </compounddef>
+</doxygen>

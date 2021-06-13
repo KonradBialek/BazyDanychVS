@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Plan_lekcji</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a4878af48fdd5b06a7961d3f5d5695d67" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid AplikacjaDostepowa.Views.Plan_lekcji::dataGrid1</definition>
+        <argsstring></argsstring>
+        <name>dataGrid1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1ab4dbcb905ec955bb9f80995726382b45" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Plan_lekcji::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" line="51" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a5526fafd314b20197f37023bf81b6b22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DataTable</type>
+        <definition>DataTable AplikacjaDostepowa.Views.Plan_lekcji.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+<para>Pobór tabeli dotyczącej planu lekcji z bazy danych. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Plan_lekcji.xaml.cs" line="35" column="26" bodyfile="G:/sem6/BAZY/Views/Plan_lekcji.xaml.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Plan_lekcji.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" line="58" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Plan_lekcji.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.i.cs" line="58" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.i.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a23655209d4dbbaa371fce2ea825498da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Plan_lekcji.Plan_lekcji</definition>
+        <argsstring>()</argsstring>
+        <name>Plan_lekcji</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" kindref="compound">Plan_lekcji</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Plan_lekcji.xaml.cs" line="27" column="16" bodyfile="G:/sem6/BAZY/Views/Plan_lekcji.xaml.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Plan_lekcji.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" line="78" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Plan_lekcji.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.i.cs" line="78" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.i.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" kindref="compound">Plan_lekcji</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" kindref="compound">Plan_lekcji</ref></computeroutput> zawiera metody pozwalające na odczyt planu lekcji.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Plan_lekcji</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Plan_lekcji</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>dataGrid1</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Plan_lekcji.g.cs" bodystart="41" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1ab4dbcb905ec955bb9f80995726382b45" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a5526fafd314b20197f37023bf81b6b22" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>Data</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a4878af48fdd5b06a7961d3f5d5695d67" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>dataGrid1</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a23655209d4dbbaa371fce2ea825498da" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Plan_lekcji</scope><name>Plan_lekcji</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

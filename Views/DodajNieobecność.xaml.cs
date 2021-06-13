@@ -17,10 +17,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Interaction logic for DodajNieobecność.xaml
+    /// Klasa <c>DodajNieobecność</c> zawiera metody pozwalające na dodawanie nieobecności.
     /// </summary>
     public partial class DodajNieobecność : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy DodajNieobecność, pobiera tabelę uczniów.
+        /// </summary>
         public DodajNieobecność()
         {
             DataContext = this;
@@ -28,13 +31,20 @@ namespace AplikacjaDostepowa.Views
 
             InitializeComponent();
         }
+        /// <value>Pobiera listę uczniów.</value>
         public List<ComboBoxItem> Uczniowie { get; private set; }
+
+        /// <summary>
+        /// Dodanie nieobecności po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
             var lekcja = (Lekcja.SelectedItem as ComboBoxItem).Tag as Dictionary<string, object>;
-            BazaDanych.Execute("INSERT INTO nieobecnosc (stan, nauczyciel_id, uczen_iducznia, lekcja_data, lekcja_nr_w_dniu) VALUES (@stan, @nauczyciel_id, @uczen_iducznia, @lekcja_data, @lekcja_nr_w_dniu)",
-                new MySqlParameter("stan", Usprawiedliwiona.IsChecked.Value ? "u" : "nb"),
+            BazaDanych.Execute("INSERT INTO nieobecnosc (stan, nauczyciel_id, uczen_iducznia, lekcja_data, lekcja_nr_w_dniu) VALUES (nb, @nauczyciel_id, @uczen_iducznia, @lekcja_data, @lekcja_nr_w_dniu)",
+                //new MySqlParameter("stan", Usprawiedliwiona.IsChecked.Value ? "u" : "nb"),
                 new MySqlParameter("nauczyciel_id", user.ID),
                 new MySqlParameter("uczen_iducznia", Uczen.SelectionBoxItem),
                 new MySqlParameter("lekcja_data", lekcja["data_dnia"]),
@@ -43,7 +53,11 @@ namespace AplikacjaDostepowa.Views
             MessageBox.Show("Dodano nieobecność.");
             ((MainWindow)Application.Current.MainWindow).DataContext = new Nieobecności();
         }
-
+        /// <summary>
+        /// Zmiana wybranego ucznia.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Uczen_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;

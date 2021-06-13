@@ -17,10 +17,14 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Interaction logic for UczenNaLekcji.xaml
+    /// Klasa <c>UczenNaLekcjiKontrolka</c> zawiera metodę pozwalającą na ustawienie danych ucznia do wyświetlenia na liście klasy.
     /// </summary>
     public partial class UczenNaLekcjiKontrolka : UserControl
     {
+        /// <summary>
+        /// Ustawienie danych ucznia do wyświetlenia na liście klasy
+        /// </summary>
+        /// <param name="uczen">Dane ucznia</param>
         public UczenNaLekcjiKontrolka(UczenNaLekcji uczen)
         {
             InitializeComponent();

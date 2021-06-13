@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="packages_2_bouncy_castle_81_88_89_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>The<sp/>Bouncy<sp/>Castle<sp/>Crypto<sp/>Package<sp/>For<sp/>C<sp/>Sharp</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Bouncy<sp/>Castle<sp/>Crypto<sp/>package<sp/>is<sp/>a<sp/>C\#<sp/>implementation<sp/>of<sp/>cryptographic<sp/>algorithms<sp/>and<sp/>protocols,<sp/>it<sp/>was<sp/>developed<sp/>by<sp/>the<sp/>Legion<sp/>of<sp/>the<sp/>Bouncy<sp/>Castle,<sp/>a<sp/>registered<sp/>Australian<sp/>Charity,<sp/>with<sp/>a<sp/>little<sp/>help!<sp/>The<sp/>Legion,<sp/>and<sp/>the<sp/>latest<sp/>goings<sp/>on<sp/>with<sp/>this<sp/>package,<sp/>can<sp/>be<sp/>found<sp/>at<sp/>[http://www.bouncycastle.org](http://www.bouncycastle.org).<sp/>In<sp/>addition<sp/>to<sp/>providing<sp/>basic<sp/>cryptography<sp/>algorithms,<sp/>the<sp/>package<sp/>also<sp/>provides<sp/>support<sp/>for<sp/>CMS,<sp/>TSP,<sp/>X.509<sp/>certificate<sp/>generation<sp/>and<sp/>a<sp/>variety<sp/>of<sp/>other<sp/>standards<sp/>such<sp/>as<sp/>OpenPGP.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Legion<sp/>also<sp/>gratefully<sp/>acknowledges<sp/>the<sp/>contributions<sp/>made<sp/>to<sp/>this<sp/>package<sp/>by<sp/>others<sp/>(see<sp/>[here](http://www.bouncycastle.org/csharp/contributors.html)<sp/>for<sp/>the<sp/>current<sp/>list).<sp/>If<sp/>you<sp/>would<sp/>like<sp/>to<sp/>contribute<sp/>to<sp/>our<sp/>efforts<sp/>please<sp/>feel<sp/>free<sp/>to<sp/>get<sp/>in<sp/>touch<sp/>with<sp/>us<sp/>or<sp/>visit<sp/>our<sp/>[donations<sp/>page](https://www.bouncycastle.org/donate),<sp/>sponsor<sp/>some<sp/>specific<sp/>work,<sp/>or<sp/>purchase<sp/>a<sp/>support<sp/>contract<sp/>through<sp/>[Crypto<sp/>Workshop](http://www.cryptoworkshop.com).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Except<sp/>where<sp/>otherwise<sp/>stated,<sp/>this<sp/>software<sp/>is<sp/>distributed<sp/>under<sp/>a<sp/>license<sp/>based<sp/>on<sp/>the<sp/>MIT<sp/>X<sp/>Consortium<sp/>license.<sp/>To<sp/>view<sp/>the<sp/>license,<sp/>[see<sp/>here](http://www.bouncycastle.org/licence.html).<sp/>The<sp/>OpenPGP<sp/>library<sp/>also<sp/>includes<sp/>a<sp/>modified<sp/>BZIP2<sp/>library<sp/>which<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>[Apache<sp/>Software<sp/>License,<sp/>Version<sp/>2.0](http://www.apache.org/licenses/).<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Note**:<sp/>this<sp/>source<sp/>tree<sp/>is<sp/>not<sp/>the<sp/>FIPS<sp/>version<sp/>of<sp/>the<sp/>APIs<sp/>-<sp/>if<sp/>you<sp/>are<sp/>interested<sp/>in<sp/>our<sp/>FIPS<sp/>version<sp/>please<sp/>contact<sp/>us<sp/>directly<sp/>at<sp/><sp/>[office@bouncycastle.org](mailto:office@bouncycastle.org).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Mailing<sp/>Lists</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>those<sp/>who<sp/>are<sp/>interested,<sp/>there<sp/>are<sp/>2<sp/>mailing<sp/>lists<sp/>for<sp/>participation<sp/>in<sp/>this<sp/>project.<sp/>To<sp/>subscribe<sp/>use<sp/>the<sp/>links<sp/>below<sp/>and<sp/>include<sp/>the<sp/>word<sp/>subscribe<sp/>in<sp/>the<sp/>message<sp/>body.<sp/>(To<sp/>unsubscribe,<sp/>replace<sp/>**subscribe**<sp/>with<sp/>**unsubscribe**<sp/>in<sp/>the<sp/>message<sp/>body)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/><sp/><sp/>[announce-crypto-csharp-request@bouncycastle.org](mailto:announce-crypto-csharp-request@bouncycastle.org)<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>This<sp/>mailing<sp/>list<sp/>is<sp/>for<sp/>new<sp/>release<sp/>announcements<sp/>only,<sp/>general<sp/>subscribers<sp/>cannot<sp/>post<sp/>to<sp/>it.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/><sp/><sp/>[dev-crypto-csharp-request@bouncycastle.org](mailto:dev-crypto-csharp-request@bouncycastle.org)<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>This<sp/>mailing<sp/>list<sp/>is<sp/>for<sp/>discussion<sp/>of<sp/>development<sp/>of<sp/>the<sp/>package.<sp/>This<sp/>includes<sp/>bugs,<sp/>comments,<sp/>requests<sp/>for<sp/>enhancements,<sp/>questions<sp/>about<sp/>use<sp/>or<sp/>operation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**NOTE:**You<sp/>need<sp/>to<sp/>be<sp/>subscribed<sp/>to<sp/>send<sp/>mail<sp/>to<sp/>the<sp/>above<sp/>mailing<sp/>list.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Feedback<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>want<sp/>to<sp/>provide<sp/>feedback<sp/>directly<sp/>to<sp/>the<sp/>members<sp/>of<sp/>**The<sp/>Legion**<sp/>then<sp/>please<sp/>use<sp/>[feedback-crypto@bouncycastle.org](mailto:feedback-crypto@bouncycastle.org),<sp/>if<sp/>you<sp/>want<sp/>to<sp/>help<sp/>this<sp/>project<sp/>survive<sp/>please<sp/>consider<sp/>[donating](https://www.bouncycastle.org/donate).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>bug<sp/>reporting/requests<sp/>you<sp/>can<sp/>report<sp/>issues<sp/>here<sp/>on<sp/>github,<sp/>via<sp/>feedback-crypto<sp/>if<sp/>required,<sp/>and<sp/>we<sp/>also<sp/>have<sp/>a<sp/>[Jira<sp/>issue<sp/>tracker](http://www.bouncycastle.org/jira).<sp/>We<sp/>will<sp/>accept<sp/>pull<sp/>requests<sp/>based<sp/>on<sp/>this<sp/>repository<sp/>as<sp/>well.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Finally</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Enjoy!</highlight></codeline>
+    </programlisting>
+    <location file="G:/sem6/BAZY/packages/BouncyCastle.1.8.9/README.md"/>
+  </compounddef>
+</doxygen>

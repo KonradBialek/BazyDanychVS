@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Admin::Nauczyciele</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3637644fa3d2efa549c12a43ff855424" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.Admin.Nauczyciele::Combo</definition>
+        <argsstring></argsstring>
+        <name>Combo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3610408f027bcf0c5762fe33c1ddc96f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Admin.Nauczyciele::Imię</definition>
+        <argsstring></argsstring>
+        <name>Imię</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="54" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0758d5868642e42f300e3c87a6910dcb" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Admin.Nauczyciele::Nazwisko</definition>
+        <argsstring></argsstring>
+        <name>Nazwisko</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="62" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a9fdeddff32c64a7bb116f44c90b6ee16" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Admin.Nauczyciele::Wiek</definition>
+        <argsstring></argsstring>
+        <name>Wiek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="70" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0202246bc42c5978ba1149f22d399ae6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Admin.Nauczyciele::Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="78" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a2798e81488e49c2a3ca2c094fb899a59" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.CheckBox</type>
+        <definition>System Windows Controls CheckBox AplikacjaDostepowa.Views.Admin.Nauczyciele::CzyAdmin</definition>
+        <argsstring></argsstring>
+        <name>CzyAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="86" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a5dc6d1f7e1c428c88767b6ed530be298" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Admin.Nauczyciele::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="91" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ae23b6ed6e1bee2fbf11dd8fac6120cd7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AplikacjaDostepowa.Views.Admin.Nauczyciele.AktualnyId</definition>
+        <argsstring></argsstring>
+        <name>AktualnyId</name>
+        <briefdescription>
+<para>Pobiera Id wybranego nauczyciela.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="26" column="21" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0d3843744c051ec97f6828e382c6f3c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel" kindref="compound">Nauczyciel</ref> &gt;</type>
+        <definition>List&lt;Nauczyciel&gt; AplikacjaDostepowa.Views.Admin.Nauczyciele.Lista</definition>
+        <argsstring></argsstring>
+        <name>Lista</name>
+        <initializer>SELECT * FROM nauczyciel ORDER BY dane_osobowe_Nazwisko, dane_osobowe_Imie&quot;</initializer>
+        <briefdescription>
+<para>Pobiera listę nayczycieli.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="41" column="21" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Admin.Nauczyciele.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="98" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Admin.Nauczyciele.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.i.cs" line="98" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.i.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ac7923a5063efe9944fe54cbbb792576b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Admin.Nauczyciele.Nauczyciele</definition>
+        <argsstring>()</argsstring>
+        <name>Nauczyciele</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" kindref="compound">Nauczyciele</ref>, pobiera i wyświetla listę nauczycieii. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="31" column="16" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Admin.Nauczyciele.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="118" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="118" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Admin.Nauczyciele.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.i.cs" line="118" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.i.cs" bodystart="118" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aacd8b0df6e1605c13fb687bc0f91257d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Admin.Nauczyciele.Combo_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>Combo_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Wyświetlenie danych wybranego nauczyciela. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="48" column="22" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="48" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a58b089fb7db6c3de8241ff48281ce90b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Admin.Nauczyciele.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie lub zaktualizowanie danych nauczyciela w odpowiednich tabelach. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="64" column="22" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="64" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a12a0a6c18daa90fc924a3e506f6d77db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Admin.Nauczyciele.Usun_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Usun_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Usunięcie danych nauczyciela z odpowiednich tabel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" line="101" column="22" bodyfile="G:/sem6/BAZY/Views/Admin/Nauczyciele.xaml.cs" bodystart="101" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" kindref="compound">Nauczyciele</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" kindref="compound">Nauczyciele</ref></computeroutput> zawiera metody pozwalające na modyfikację i wyświetlanie danych nauuczycieli.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Admin.Nauczyciele</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Admin.Nauczyciele</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Combo</edgelabel>
+          <edgelabel>CzyAdmin</edgelabel>
+          <edgelabel>Imię</edgelabel>
+          <edgelabel>Login</edgelabel>
+          <edgelabel>Nazwisko</edgelabel>
+          <edgelabel>Wiek</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" bodystart="41" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a5dc6d1f7e1c428c88767b6ed530be298" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ae23b6ed6e1bee2fbf11dd8fac6120cd7" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>AktualnyId</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a58b089fb7db6c3de8241ff48281ce90b" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3637644fa3d2efa549c12a43ff855424" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Combo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aacd8b0df6e1605c13fb687bc0f91257d" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Combo_SelectionChanged</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a2798e81488e49c2a3ca2c094fb899a59" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>CzyAdmin</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3610408f027bcf0c5762fe33c1ddc96f" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Imię</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0d3843744c051ec97f6828e382c6f3c5" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Lista</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0202246bc42c5978ba1149f22d399ae6" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Login</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ac7923a5063efe9944fe54cbbb792576b" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Nauczyciele</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0758d5868642e42f300e3c87a6910dcb" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Nazwisko</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a12a0a6c18daa90fc924a3e506f6d77db" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Usun_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a9fdeddff32c64a7bb116f44c90b6ee16" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Admin::Nauczyciele</scope><name>Wiek</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

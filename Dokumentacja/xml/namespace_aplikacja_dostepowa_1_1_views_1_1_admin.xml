@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_aplikacja_dostepowa_1_1_views_1_1_admin" kind="namespace" language="C#">
+    <compoundname>AplikacjaDostepowa::Views::Admin</compoundname>
+    <innerclass refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" prot="public">AplikacjaDostepowa::Views::Admin::Nauczyciele</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Admin/Nauczyciele.g.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

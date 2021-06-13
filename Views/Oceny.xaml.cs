@@ -17,10 +17,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Oceny.xaml
+    /// Klasa <c>Oceny</c> zawiera metody pozwalające na odczyt ocen.
     /// </summary>
     public partial class Oceny : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy Oceny, ustawia widoczność przycisku dodania oceny.
+        /// </summary>
         public Oceny()
         {
             DataContext = this;
@@ -29,6 +32,9 @@ namespace AplikacjaDostepowa.Views
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
             DodajButton.Visibility = user.Typ == UserType.Nauczyciel ? Visibility.Visible : Visibility.Collapsed;
         }
+        /// <summary>
+        /// Pobór tabeli dotyczącej ocen uczniów z bazy danych.
+        /// </summary>
         public DataTable Current
         {
             get
@@ -49,6 +55,9 @@ namespace AplikacjaDostepowa.Views
                 else return null;
             }
         }
+        /// <summary>
+        /// Pobór tabeli dotyczącej średniej ocen uczniów z bazy danych.
+        /// </summary>
         public DataTable Total
         {
             get
@@ -70,6 +79,11 @@ namespace AplikacjaDostepowa.Views
             }
         }
 
+        /// <summary>
+        /// Przejście do okna dodania nieobecności po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((MainWindow)Application.Current.MainWindow).DataContext = new DodawanieOceny();

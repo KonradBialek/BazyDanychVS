@@ -16,7 +16,7 @@
         <DockPanel Background="Gray" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
             <StackPanel>
                 <Button Content="Oceny" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top" Click="Oceny"/>
-                <Button Content="Nieobecnośći" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top"  Click="Nieobecnośći"/>
+                <Button Content="Nieobecności" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top"  Click="Nieobecnośći"/>
                 <Button Content="Ogłoszenia" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top"  Click="Ogłoszenia"/>
                 <Button Content="Terminarz" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top"  Click="Terminarz"/>
                 <Button Content="Uwagi" HorizontalAlignment="Stretch" Height="30" Margin="10,10,10,0" VerticalAlignment="Top"  Click="Uwagi"/>

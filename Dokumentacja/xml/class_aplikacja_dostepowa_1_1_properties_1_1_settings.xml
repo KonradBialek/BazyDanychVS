@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>AplikacjaDostepowa::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemConfiguration.ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1ad0d44379d7b325364839a15a23dd46a4" prot="private" static="yes" mutable="no">
+        <type>Settings</type>
+        <definition>Settings AplikacjaDostepowa.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Properties/Settings.Designer.cs" line="19" column="33" bodyfile="G:/sem6/BAZY/Properties/Settings.Designer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1a9ae4143a90d83a72baf29dbf49743e6f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Settings</type>
+        <definition>Settings AplikacjaDostepowa.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Properties/Settings.Designer.cs" line="21" column="32" bodyfile="G:/sem6/BAZY/Properties/Settings.Designer.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1">
+        <label>AplikacjaDostepowa.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/Properties/Settings.Designer.cs" line="16" column="28" bodyfile="G:/sem6/BAZY/Properties/Settings.Designer.cs" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1a9ae4143a90d83a72baf29dbf49743e6f" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1ad0d44379d7b325364839a15a23dd46a4" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

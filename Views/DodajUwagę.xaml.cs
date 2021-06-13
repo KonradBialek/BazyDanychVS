@@ -17,10 +17,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Interaction logic for DodajUwagę.xaml
+    /// Klasa <c>DodajUwagę</c> zawiera metody pozwalające na dodawanie uwagi.
     /// </summary>
     public partial class DodajUwagę : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy DodajUwagę, pobiera tabelę uczniów.
+        /// </summary>
         public DodajUwagę()
         {
             DataContext = this;
@@ -28,8 +31,13 @@ namespace AplikacjaDostepowa.Views
             InitializeComponent();
         }
 
+        /// <value>Pobiera listę uczniów.</value>
         public List<ComboBoxItem> Uczniowie { get; private set; }
-
+        /// <summary>
+        /// Dodanie uwagi po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;

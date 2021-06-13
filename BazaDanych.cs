@@ -19,10 +19,11 @@ using System.Windows;
 namespace AplikacjaDostepowa
 {
     /// <summary>
-    /// Klasa odpowiedzialna za komunikację z bazą danych
+    /// Klasa BazaDanych odpowiedzialna za komunikację z bazą danych
     /// </summary>
     static class BazaDanych
     {
+        /// <value>Połączenie z bazą.</value>
         public static MySqlConnection Connection { get; set; } = null;
         /// <summary>
         /// Wykonuje zapytanie sql bez zwracania danych (np. Insert, Update)
@@ -40,7 +41,10 @@ namespace AplikacjaDostepowa
                 MessageBox.Show(ex.Message);
             }
         }
-
+        /// <summary>
+        /// Tworzenie połączenia z bazą po podaniu hasła.
+        /// </summary>
+        /// <param name="password">podane hasło</param>
         internal static void SetPassword(string password)
         {
             byte[] pass = Encoding.UTF8.GetBytes(password);
@@ -60,9 +64,11 @@ namespace AplikacjaDostepowa
         }
 
         /// <summary>
-        /// Wykonuje zapytanie typu Select zwracając dane
+        /// Wykonuje zapytanie typu Select zwracając dane.
         /// </summary>
-        /// <param name="query"></param>
+        /// <param name="query">zapytanie</param>
+        /// <param name="parameters">Parametry zapytanie</param>
+        /// <returns>lista danych</returns>
         public static List<object[]> ReadAsArray(string query, params MySqlParameter[] parameters)
         {
             try
@@ -87,6 +93,12 @@ namespace AplikacjaDostepowa
                 return new List<object[]>();
             }
         }
+        /// <summary>
+        /// Odczytuje odpowiedź bazy jako słownik.
+        /// </summary>
+        /// <param name="query">zapytanie</param>
+        /// <param name="parameters">Parametry zapytanie</param>
+        /// <returns>lista danych</returns>
         public static List<Dictionary<string, object>> ReadAsDictionary(string query, params MySqlParameter[] parameters)
         {
             try
@@ -116,6 +128,12 @@ namespace AplikacjaDostepowa
                 return new List<Dictionary<string, object>>();
             }
         }
+        /// <summary>
+        /// Pobiera tablicę danych.
+        /// </summary>
+        /// <param name="query">zapytanie</param>
+        /// <param name="parameters">Parametry zapytanie</param>
+        /// <returns>tablica danych</returns>
         public static DataTable GetTable(string query, params MySqlParameter[] parameters)
         {
             try
@@ -132,7 +150,12 @@ namespace AplikacjaDostepowa
                 return new DataTable();
             }
         }
-
+        /// <summary>
+        /// Pobiera dane w formacie JSON i je deserializuje do klas z folderu Models.
+        /// </summary>
+        /// <param name="query">zapytanie</param>
+        /// <param name="parameters">Parametry zapytanie</param>
+        /// <returns>tablica danych</returns>
         public static List<T> ReadAsClass<T>(string query, params MySqlParameter[] parameters)
         {
             return JsonConvert.DeserializeObject<List<T>>(JsonConvert.SerializeObject(ReadAsDictionary(query, parameters)));

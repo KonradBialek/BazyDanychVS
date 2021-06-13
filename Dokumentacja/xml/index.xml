@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator" kind="class"><name>AplikacjaDostepowa::Views::Administrator</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1ac4cc404a2119c0a036f34275b5519424" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1a77a27eaf215c517b31e6211391b029bd" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1a77a27eaf215c517b31e6211391b029bd" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1a299e2426d80c3c9a461d07620d7374c4" kind="function"><name>Administrator</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1a5390988f2286b54e3aeff4e1bd2fd31f" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_administrator_1a5390988f2286b54e3aeff4e1bd2fd31f" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_app" kind="class"><name>AplikacjaDostepowa::App</name>
+    <member refid="class_aplikacja_dostepowa_1_1_app_1ae9cd0f13372a81cbece9526d9f4f7ba8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_app_1ae9cd0f13372a81cbece9526d9f4f7ba8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_app_1a339ce7577fc2b957be1ddfd510e00e27" kind="function"><name>Main</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_app_1a339ce7577fc2b957be1ddfd510e00e27" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum" kind="class"><name>AplikacjaDostepowa::Views::Archiwum</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a05abfde18b311c4e72ae2378f2aed609" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a0b4458d65cc5e5f76b64576aae2dbd38" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a5b2a23b135b2a69e7ea2c9741d6daf02" kind="function"><name>Archiwum</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a6e2b26cf352a871145fa34241c9c5882" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a55570f5063b033c3f1bc667a2018aa42" kind="function"><name>Archiwizuj</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_archiwum_1a50ea8ad1e3d503ff8b339048e99122c8" kind="function"><name>Przywroc</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_baza_danych" kind="class"><name>AplikacjaDostepowa::BazaDanych</name>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1adc24803cf35cac6f0729ad80b540ed58" kind="property"><name>Connection</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1a766d4f3115ac30657926fdf9f7d118d5" kind="function"><name>Execute</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1a85b00c9439fd66a127907af9839c2ff7" kind="function"><name>ReadAsArray</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1a008ec91103967ce5c52fd86918849420" kind="function"><name>ReadAsDictionary</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1a2f7b8ca9fe11f657712b6df802724c25" kind="function"><name>GetTable</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1a31dd87176917c275b56413ea498f12d4" kind="function"><name>ReadAsClass&lt; T &gt;</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_baza_danych_1ab7e39cd561e1b1b4c0af753640384860" kind="function"><name>SetPassword</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87" kind="class"><name>AplikacjaDostepowa::Views::DodajNieobecność</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1ac407ef57689a8dfdb434f64ae5c3ec82" kind="variable"><name>Uczen</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1a2cad1ee7aaa837298f3eb98dea654807" kind="variable"><name>Lekcja</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1a2406f1e7977623801c6f62b175af6826" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1aa11902780cfdc0575e9a55322a247188" kind="property"><name>Uczniowie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1a0a4b26cf26afd06e9fe4094ddc03dc44" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1a0a4b26cf26afd06e9fe4094ddc03dc44" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1a3ff08567b761ed4b8950b0b09ce330f7" kind="function"><name>DodajNieobecność</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1af7e15c2f2a7bea9e3178b8826a0b1dc8" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1af7e15c2f2a7bea9e3178b8826a0b1dc8" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1aa9125bb78b41abd7afea1583c50d9689" kind="function"><name>Button_Click</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_nieobecno_xC5_x9B_xC4_x87_1ad0f0ef7d33b584bf1c7de8745dc6b557" kind="function"><name>Uczen_SelectionChanged</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99" kind="class"><name>AplikacjaDostepowa::Views::DodajUwagę</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a33500f251d76c2f442f897db47f0c517" kind="variable"><name>Uczen</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1af269289d914cff3f905dcccedef74285" kind="variable"><name>Tresc</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a7890c03b5e97d130f5f860ab32c253e5" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1acce309553d91bec35c4dbf5ee1c81701" kind="property"><name>Uczniowie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a47e6d63815cc35e414e5efbbe5416195" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a058a86f17fe8dcffdede0b03cb30127f" kind="function"><name>DodajUwagę</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1ab24e2982117f3bd399dc75ace7e9d766" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodaj_uwag_xC4_x99_1a23edbaa768e520af5bc34995490c6476" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny" kind="class"><name>AplikacjaDostepowa::Views::DodawanieOceny</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a032f6539833c57bccc74aa4a0ceefeba" kind="variable"><name>Uczen</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ae30f4a28bb56a8d85eafd6a87e18372e" kind="variable"><name>Przedmiot</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ab695bd45a805296c41936614071127bc" kind="variable"><name>Wartosc</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a138482dd42dc6dacae369b008a5227f4" kind="variable"><name>Waga</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ac72ddb3e3d2e5bfbdc56b393f8216c24" kind="variable"><name>Opis</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1af3465fc346c8d84a66a671f18bb91b2a" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a28dc3b685fb30decdabf2e3c786bd315" kind="property"><name>Przedmioty</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a150e7fcb13f2db6a0c3db9597b4b21a4" kind="property"><name>Uczniowie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a3fba4ca952f4b9784a9bcbc7a86ff4db" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a19da1af0b0cd98b335ee5a4bc03f040a" kind="function"><name>DodawanieOceny</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1a7777c9ff9ff9c18a61cdd6c98e87fd3d" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_oceny_1ad1ca9aea6289be595626d774b7758575" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia" kind="class"><name>AplikacjaDostepowa::Views::DodawanieOgłoszenia</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1a40bb831089bec6b969487debebe61a1c" kind="variable"><name>Opis</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1a3b6bcbe073c9f53f0433164be0534ee7" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1abcfcd3787e6c11eea0bb72285dfebc5e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1abcfcd3787e6c11eea0bb72285dfebc5e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1a039ad022d518333cbdaa833c7967d6c9" kind="function"><name>DodawanieOgłoszenia</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1addf7e0bf35306a36be75387c00869cad" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1addf7e0bf35306a36be75387c00869cad" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_dodawanie_og_xC5_x82oszenia_1ab7436eba8b150bd8489745ac4abe4607" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper" kind="class"><name>XamlGeneratedNamespace::GeneratedInternalTypeHelper</name>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" kind="class"><name>AplikacjaDostepowa::Views::Lekcja</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a0c306c5248de1effae8359b809940294" kind="variable"><name>klasaCombo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a830fe643d3e978e7ff682337dd900995" kind="variable"><name>numerCombo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1af5837fda70439fbe461cbd971f6d580b" kind="variable"><name>przedmiotCombo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5e09b97faeef1f23d71abafc672452c5" kind="variable"><name>Temat</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a1b925301bec5882401090ac073a6231d" kind="variable"><name>listaUczniow</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a29bf08ca17f103b421f72492ce04a7f8" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aaac909d75b5145ef1f7e34f62c5985a5" kind="variable"><name>dzienTygodnia</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adff11944f6dc362a3bf0a5de81105d76" kind="variable"><name>lekcja</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a3812efa4348e2e0a469f35e85ba9960e" kind="variable"><name>Klasy</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a4d8bd7c6138e6171cec4fab778248b07" kind="variable"><name>week</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aff9a23e9a7c5bfb6584603971d991199" kind="property"><name>KlasyNazwy</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a54931576fd0120e393f08fbd89ba0137" kind="property"><name>Przedmioty</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ab15b0d20ebd737de5f09027e50d5e6be" kind="function"><name>Lekcja</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adc9b16e12d9e390d25d85708fa901ec6" kind="function"><name>LoadNumbers</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aeca0b3db80b19f770b6e2704e8775b2e" kind="function"><name>LoadPrzedmioty</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5809b1e18bb92fdc6372c7cc763b019e" kind="function"><name>LoadPeople</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ae9fff97e327d2d47eb10592cfac22cf1" kind="function"><name>LoadLesson</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ac8ccffdc73d73b07070f48bfb1455187" kind="function"><name>klasaCombo_SelectionChanged</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aae84581fdb9764b9c22ddbd098a3f2e8" kind="function"><name>Button_Click</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a9136df98cefa20ddafa3a4ad4e1eafe8" kind="function"><name>numerCombo_SelectionChanged</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model" kind="class"><name>AplikacjaDostepowa::Models::LekcjaModel</name>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1a67bb4a4b3f392dfe22b6bfbb9231d303" kind="property"><name>temat</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model_1aa0992d346b5f829247938b10667448eb" kind="property"><name>przedmiot_nazwa</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie" kind="class"><name>AplikacjaDostepowa::Views::Logowanie</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1abfd346c7010fe7e87bbfab0ab356751b" kind="variable"><name>login</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a2de4b159d95605baef18a8ae6e6b3daf" kind="variable"><name>haslo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a1c541d68924bfdcb6ff6032f054723e9" kind="variable"><name>hasloDB</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1acde0a2a02170a05a109efb42a0896e93" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9939c16a44e9655d31039e08b3626298" kind="variable"><name>Login</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a019b4a02a9e567683b7ccaa84d2d1cfd" kind="variable"><name>Haslo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae3bc8abd55310ab6761c20fdd31afe26" kind="property"><name>Login1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae86fcf6f8e3ac9d52ec0e9b9586341e9" kind="property"><name>Haslo1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a72b4c2c177ad6cf90d93e4f6ea3153a4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a3ef0cf2c4f82c88b91c7deef2a390772" kind="function"><name>Logowanie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1a9909587476916c05bc733d1a834bda25" kind="function"><name>Zaloguj</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_logowanie_1ae718240f73091001e5e8692e76ca7608" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_main_window" kind="class"><name>AplikacjaDostepowa::MainWindow</name>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ad92ff77d0c56192953a6e078a91a55b1" kind="property"><name>LoggedUser</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ae743fdfca102fc11b818c3cc9bb9a4c2" kind="variable"><name>ArchiwumButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a0725c1fd98aea39f98d6ff1216f80d5a" kind="variable"><name>AdminButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1afe8502f667422b7b63403e68c380f08a" kind="variable"><name>LekcjaButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1abd3f1ecfa6468276241677438c420a64" kind="variable"><name>UserName</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ad0d0e07e26aa22a5d0f7ca6708a2a9d7" kind="variable"><name>Logowanie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a595d8a04b7d1ad5f6d96d1aa7267520a" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1aba7029ff087aecc1f7dfa113ca4aab5b" kind="function"><name>MainWindow</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a5cd2ca2271db26e8a2f329b09c1fed01" kind="function"><name>Zaloguj</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a253991aef3521604b213e985c1086010" kind="function"><name>UserInBase</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac729c05c6380161b8096b046acb08c6d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac4f9f589d43e29ad2442216cece269a9" kind="function"><name>Oceny</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a543a9749266ae4439547cb0296b83cc8" kind="function"><name>Nieobecnośći</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a46a900f9966e5b453ccf1b3f1eae2b0c" kind="function"><name>Ogłoszenia</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ac34ad24c354750f08c7aac5346262525" kind="function"><name>Terminarz</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1aad07fbfb084f78a943f97db053c59fff" kind="function"><name>Uwagi</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a910b4730b62b4e16075d4a6e9a0429ca" kind="function"><name>Plan_lekcji</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a88ba7ff3ac1aef5d9c24297b6dbd9b42" kind="function"><name>Archiwum</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a5b009a573f0ca9f8f2c39581b984cfcf" kind="function"><name>Wyloguj</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1ace10e5bda057f661c4ae5a74f3f9c556" kind="function"><name>Admin</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a2df23407415a9969e3c860f7ecbfd318" kind="function"><name>Lekcja</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a315af362fd829c54cbbd096f9712400d" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" kind="function"><name>_CreateDelegate</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_main_window_1a7f3f3ecada96858b0f894ab9bad086c7" kind="function"><name>_CreateDelegate</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel" kind="class"><name>AplikacjaDostepowa::Models::Nauczyciel</name>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1acd568e53d0d3ac9714faceb9389e07c7" kind="property"><name>id</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a4506b972dbb620ca3bb80500ac4ec2cf" kind="property"><name>czy_admin</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a25329618ef6b18f65a76ceed81ae664a" kind="property"><name>login</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a525a4add5d335e6eae025cb318c15bed" kind="property"><name>wiek</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1ae4b5ac9ac2dfc773d73b5a0ecd86cd06" kind="property"><name>dane_osobowe_Imie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a8d50a63df4fbb59d512251ab4dc735de" kind="property"><name>dane_osobowe_Nazwisko</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel_1a2df9077984fd65602c92813a846df7e9" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele" kind="class"><name>AplikacjaDostepowa::Views::Admin::Nauczyciele</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3637644fa3d2efa549c12a43ff855424" kind="variable"><name>Combo</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a3610408f027bcf0c5762fe33c1ddc96f" kind="variable"><name>Imię</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0758d5868642e42f300e3c87a6910dcb" kind="variable"><name>Nazwisko</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a9fdeddff32c64a7bb116f44c90b6ee16" kind="variable"><name>Wiek</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0202246bc42c5978ba1149f22d399ae6" kind="variable"><name>Login</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a2798e81488e49c2a3ca2c094fb899a59" kind="variable"><name>CzyAdmin</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a5dc6d1f7e1c428c88767b6ed530be298" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ae23b6ed6e1bee2fbf11dd8fac6120cd7" kind="variable"><name>AktualnyId</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a0d3843744c051ec97f6828e382c6f3c5" kind="property"><name>Lista</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ad1ee720ef622c4bb95bd37b48eab29cf" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1ac7923a5063efe9944fe54cbbb792576b" kind="function"><name>Nauczyciele</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aec86cb606f1e473325d46ddf419e5250" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1aacd8b0df6e1605c13fb687bc0f91257d" kind="function"><name>Combo_SelectionChanged</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a58b089fb7db6c3de8241ff48281ce90b" kind="function"><name>Button_Click</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele_1a12a0a6c18daa90fc924a3e506f6d77db" kind="function"><name>Usun_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci" kind="class"><name>AplikacjaDostepowa::Views::Nieobecności</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a28c930c9c5a93d7baa62b5f7b9b9bfb5" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a87b763c9e7c0bdb7de3aec4b7d9b7071" kind="variable"><name>Podsumowanie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a42990119d61c085548b8ceef551bff57" kind="variable"><name>DodajButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a7f8c05c23ea10569d0b065e3ec2e01ad" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a6aebee5589440d1040713e598526904c" kind="property"><name>Data</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a5e178c706cdf869351f68fe974856450" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a132c9ee739c26d11ecaac26f4daa2955" kind="function"><name>Nieobecności</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a61dc435fdc2fb9786fc2b868ad299a83" kind="function"><name>LoadSummary</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1ad52a3637b86bc82e30f6a4db0ba10765" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci_1a8a1a8dfba5a63333e18e17036e9f486c" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny" kind="class"><name>AplikacjaDostepowa::Views::Oceny</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a4f414eba84c111f5161a7cb3c218086b" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a4887250d1385b8e214577533b6e2b0ac" kind="variable"><name>DodajButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a3fe5a3093c66981ce3675f870be7b19a" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a24c84b17a14120a3a8408207b734918c" kind="property"><name>Current</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a0a44fb9b6f3569284a824382c14b510a" kind="property"><name>Total</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1ae06491a41255dc70e5790213e57065db" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1ae06491a41255dc70e5790213e57065db" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a3809b6634a5b3c907a41504c69ebb7b8" kind="function"><name>Oceny</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a733010f67025ae7d7d373ad58b92a4ca" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1a733010f67025ae7d7d373ad58b92a4ca" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_oceny_1ac3b6ca3a630839f8296390143430056e" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia" kind="class"><name>AplikacjaDostepowa::Views::Ogłoszenia</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0304eba5aeefa528cd29f943bb8783b6" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ad769fdddc0f414d9eb0bb31789eb5d67" kind="variable"><name>DodajButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a8d4d17abe51c8034c39d729528b426cd" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1ae6b488d953339876cd8a744009fa45df" kind="property"><name>Data</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a6bdffc7c338bbbec8bc5f8a5c73fe285" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a4bae6184ba1c545c595ea49d69423d66" kind="function"><name>Ogłoszenia</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a65c7d50e99fea435db14321fc94d1f00" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_og_xC5_x82oszenia_1a0334eea1b8b29c123129c1ba199ed1c8" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji" kind="class"><name>AplikacjaDostepowa::Views::Plan_lekcji</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a4878af48fdd5b06a7961d3f5d5695d67" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1ab4dbcb905ec955bb9f80995726382b45" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a5526fafd314b20197f37023bf81b6b22" kind="property"><name>Data</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a54e025dccc0ac0e4d453b3d95eea50a5" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a23655209d4dbbaa371fce2ea825498da" kind="function"><name>Plan_lekcji</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_plan__lekcji_1a91f1b31ed283821bbb9902f5d7266277" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources" kind="class"><name>AplikacjaDostepowa::Properties::Resources</name>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources_1a7d4812be163981d57fb8f74d5c118b1d" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources_1abd1edb930eeb31e9ef068b490fc800e1" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources_1ac504d01c7ce374bfb316d3b102beedf6" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources_1a2dd052f9bf9af1e6dd49aacf92e2df6e" kind="property"><name>Culture</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_resources_1aef67a3035512737b0106357ce7d530b8" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_properties_1_1_settings" kind="class"><name>AplikacjaDostepowa::Properties::Settings</name>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1ad0d44379d7b325364839a15a23dd46a4" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_properties_1_1_settings_1a9ae4143a90d83a72baf29dbf49743e6f" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz" kind="class"><name>AplikacjaDostepowa::Views::Terminarz</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1a20ceda6879d0ec5f1234382ef983f337" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1acb42a00eb193cd85ca2090c68019c2b8" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1a45de829af444ef6b7fde6ee1c37d4791" kind="property"><name>Data</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1aa5c12fc72bfbacb66cb29422cd93caa8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1aa5c12fc72bfbacb66cb29422cd93caa8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1a164302051dfdc01d5ab18e4cdf6f2e39" kind="function"><name>Terminarz</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1a3dca1136296f1394622cac3653b82952" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_terminarz_1a3dca1136296f1394622cac3653b82952" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji" kind="class"><name>AplikacjaDostepowa::Models::UczenNaLekcji</name>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1ae40f7ca49f24c520ce2e7c9d274e7764" kind="property"><name>dane_osobowe_Imie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a11f130a19e58fc1245e5b0b58a8df7a8" kind="property"><name>dane_osobowe_Nazwisko</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_uczen_na_lekcji_1a8553f4952eb316f53550ba201b11e0cd" kind="property"><name>nr_w_dzienniku</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka" kind="class"><name>AplikacjaDostepowa::Views::UczenNaLekcjiKontrolka</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a4671048f3dc4ebd6fbfd15c20e49a0a7" kind="variable"><name>ImieNazwisko</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a13b23c72e32db3a7fa540814ed90e3e8" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a594f6282f910d73cae852ecfa953d740" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1af3e16037b7514c1976ac89c3581a013f" kind="function"><name>UczenNaLekcjiKontrolka</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uczen_na_lekcji_kontrolka_1a02549bbe18d17c31e2332db758865446" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_models_1_1_user" kind="class"><name>AplikacjaDostepowa::Models::User</name>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1abea2f5bc5024c4558b897b01099fac7e" kind="property"><name>ID</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a79d7c142055870269255b6b1d4b59fad" kind="property"><name>Imie</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a4b9a3fa3d6e13a1bbb3ff7585e902223" kind="property"><name>Nazwisko</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1ac543d5f8052fb334cf8793e945ff1de9" kind="property"><name>Klasa</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a73a7ac5a4ac00fe876167c5ed3686f7d" kind="property"><name>Typ</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1a3afd4f3f28acbdabe880a8c3c88fa4ec" kind="property"><name>IsAdmin</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_models_1_1_user_1ae8cf90621dd8c6e2106a323e8d072cba" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi" kind="class"><name>AplikacjaDostepowa::Views::Uwagi</name>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1acc96df1d9c84b8cd1ff6c08df1d59738" kind="variable"><name>dataGrid1</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a13b7935fd681ffbb336ada647acf23f2" kind="variable"><name>DodajButton</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1aecc0901867edf4a2228d9e46b2acaecf" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1aa9a1dc5b0d02cf0d06780916372e6d07" kind="property"><name>Data</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a0d31863206f76617c3b0a4aa410827aa" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a0d31863206f76617c3b0a4aa410827aa" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a3b83651ba1c51b3e7df7d7da0317c381" kind="function"><name>Uwagi</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a00ced35892dd41f42121c77a8995aae6" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a00ced35892dd41f42121c77a8995aae6" kind="function"><name>Connect</name></member>
+    <member refid="class_aplikacja_dostepowa_1_1_views_1_1_uwagi_1a29058e3eb8397af9a854264ef42bd644" kind="function"><name>Button_Click</name></member>
+  </compound>
+  <compound refid="namespace_aplikacja_dostepowa" kind="namespace"><name>AplikacjaDostepowa</name>
+    <member refid="namespace_aplikacja_dostepowa_1ad4ba4dc561280ae02ebce78dfe94ccc8" kind="enum"><name>UserType</name></member>
+    <member refid="namespace_aplikacja_dostepowa_1ad4ba4dc561280ae02ebce78dfe94ccc8a82e78c35eeea07152bc2d60145c977c8" kind="enumvalue"><name>Uczen</name></member>
+    <member refid="namespace_aplikacja_dostepowa_1ad4ba4dc561280ae02ebce78dfe94ccc8a8a738b25b13a2643e54877c6532634de" kind="enumvalue"><name>Rodzic</name></member>
+    <member refid="namespace_aplikacja_dostepowa_1ad4ba4dc561280ae02ebce78dfe94ccc8ae4a1fdeecb1329aa6cc9bf8c3328a4e4" kind="enumvalue"><name>Nauczyciel</name></member>
+  </compound>
+  <compound refid="namespace_aplikacja_dostepowa_1_1_models" kind="namespace"><name>AplikacjaDostepowa::Models</name>
+  </compound>
+  <compound refid="namespace_aplikacja_dostepowa_1_1_properties" kind="namespace"><name>AplikacjaDostepowa::Properties</name>
+  </compound>
+  <compound refid="namespace_aplikacja_dostepowa_1_1_views" kind="namespace"><name>AplikacjaDostepowa::Views</name>
+  </compound>
+  <compound refid="namespace_aplikacja_dostepowa_1_1_views_1_1_admin" kind="namespace"><name>AplikacjaDostepowa::Views::Admin</name>
+  </compound>
+  <compound refid="namespaceglobal" kind="namespace"><name>global</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_configuration" kind="namespace"><name>global::SystemConfiguration</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_win32" kind="namespace"><name>Microsoft::Win32</name>
+  </compound>
+  <compound refid="namespace_my_sql_1_1_data_1_1_my_sql_client" kind="namespace"><name>MySql::Data::MySqlClient</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_common" kind="namespace"><name>System::Data::Common</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography" kind="namespace"><name>System::Security::Cryptography</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_xaml_generated_namespace" kind="namespace"><name>XamlGeneratedNamespace</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_baza_danych_8cs" kind="file"><name>BazaDanych.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_lekcja_model_8cs" kind="file"><name>LekcjaModel.cs</name>
+  </compound>
+  <compound refid="_nauczyciel_8cs" kind="file"><name>Nauczyciel.cs</name>
+  </compound>
+  <compound refid="_uczen_na_lekcji_8cs" kind="file"><name>UczenNaLekcji.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_user_type_8cs" kind="file"><name>UserType.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8i_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_nauczyciele_8g_8cs" kind="file"><name>Nauczyciele.g.cs</name>
+  </compound>
+  <compound refid="_nauczyciele_8g_8i_8cs" kind="file"><name>Nauczyciele.g.i.cs</name>
+  </compound>
+  <compound refid="_administrator_8g_8cs" kind="file"><name>Administrator.g.cs</name>
+  </compound>
+  <compound refid="_administrator_8g_8i_8cs" kind="file"><name>Administrator.g.i.cs</name>
+  </compound>
+  <compound refid="_archiwum_8g_8cs" kind="file"><name>Archiwum.g.cs</name>
+  </compound>
+  <compound refid="_archiwum_8g_8i_8cs" kind="file"><name>Archiwum.g.i.cs</name>
+  </compound>
+  <compound refid="_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8cs" kind="file"><name>DodajNieobecność.g.cs</name>
+  </compound>
+  <compound refid="_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8i_8cs" kind="file"><name>DodajNieobecność.g.i.cs</name>
+  </compound>
+  <compound refid="_dodaj_uwag_xC4_x99_8g_8cs" kind="file"><name>DodajUwagę.g.cs</name>
+  </compound>
+  <compound refid="_dodaj_uwag_xC4_x99_8g_8i_8cs" kind="file"><name>DodajUwagę.g.i.cs</name>
+  </compound>
+  <compound refid="_dodawanie_oceny_8g_8cs" kind="file"><name>DodawanieOceny.g.cs</name>
+  </compound>
+  <compound refid="_dodawanie_oceny_8g_8i_8cs" kind="file"><name>DodawanieOceny.g.i.cs</name>
+  </compound>
+  <compound refid="_dodawanie_og_xC5_x82oszenia_8g_8cs" kind="file"><name>DodawanieOgłoszenia.g.cs</name>
+  </compound>
+  <compound refid="_dodawanie_og_xC5_x82oszenia_8g_8i_8cs" kind="file"><name>DodawanieOgłoszenia.g.i.cs</name>
+  </compound>
+  <compound refid="_lekcja_8g_8cs" kind="file"><name>Lekcja.g.cs</name>
+  </compound>
+  <compound refid="_lekcja_8g_8i_8cs" kind="file"><name>Lekcja.g.i.cs</name>
+  </compound>
+  <compound refid="_logowanie_8g_8cs" kind="file"><name>Logowanie.g.cs</name>
+  </compound>
+  <compound refid="_logowanie_8g_8i_8cs" kind="file"><name>Logowanie.g.i.cs</name>
+  </compound>
+  <compound refid="_nieobecno_xC5_x9Bci_8g_8cs" kind="file"><name>Nieobecności.g.cs</name>
+  </compound>
+  <compound refid="_nieobecno_xC5_x9Bci_8g_8i_8cs" kind="file"><name>Nieobecności.g.i.cs</name>
+  </compound>
+  <compound refid="_oceny_8g_8cs" kind="file"><name>Oceny.g.cs</name>
+  </compound>
+  <compound refid="_oceny_8g_8i_8cs" kind="file"><name>Oceny.g.i.cs</name>
+  </compound>
+  <compound refid="_og_xC5_x82oszenia_8g_8cs" kind="file"><name>Ogłoszenia.g.cs</name>
+  </compound>
+  <compound refid="_og_xC5_x82oszenia_8g_8i_8cs" kind="file"><name>Ogłoszenia.g.i.cs</name>
+  </compound>
+  <compound refid="_plan__lekcji_8g_8cs" kind="file"><name>Plan_lekcji.g.cs</name>
+  </compound>
+  <compound refid="_plan__lekcji_8g_8i_8cs" kind="file"><name>Plan_lekcji.g.i.cs</name>
+  </compound>
+  <compound refid="_terminarz_8g_8cs" kind="file"><name>Terminarz.g.cs</name>
+  </compound>
+  <compound refid="_terminarz_8g_8i_8cs" kind="file"><name>Terminarz.g.i.cs</name>
+  </compound>
+  <compound refid="_uczen_na_lekcji_kontrolka_8g_8cs" kind="file"><name>UczenNaLekcjiKontrolka.g.cs</name>
+  </compound>
+  <compound refid="_uczen_na_lekcji_kontrolka_8g_8i_8cs" kind="file"><name>UczenNaLekcjiKontrolka.g.i.cs</name>
+  </compound>
+  <compound refid="_uwagi_8g_8cs" kind="file"><name>Uwagi.g.cs</name>
+  </compound>
+  <compound refid="_uwagi_8g_8i_8cs" kind="file"><name>Uwagi.g.i.cs</name>
+  </compound>
+  <compound refid="packages_2_bouncy_castle_81_88_89_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="packages_2_my_sql_connector_81_83_88_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_l_i_c_e_n_s_e_8md" kind="file"><name>LICENSE.md</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_nauczyciele_8xaml_8cs" kind="file"><name>Nauczyciele.xaml.cs</name>
+  </compound>
+  <compound refid="_administrator_8xaml_8cs" kind="file"><name>Administrator.xaml.cs</name>
+  </compound>
+  <compound refid="_archiwum_8xaml_8cs" kind="file"><name>Archiwum.xaml.cs</name>
+  </compound>
+  <compound refid="_dodaj_nieobecno_xC5_x9B_xC4_x87_8xaml_8cs" kind="file"><name>DodajNieobecność.xaml.cs</name>
+  </compound>
+  <compound refid="_dodaj_uwag_xC4_x99_8xaml_8cs" kind="file"><name>DodajUwagę.xaml.cs</name>
+  </compound>
+  <compound refid="_dodawanie_oceny_8xaml_8cs" kind="file"><name>DodawanieOceny.xaml.cs</name>
+  </compound>
+  <compound refid="_dodawanie_og_xC5_x82oszenia_8xaml_8cs" kind="file"><name>DodawanieOgłoszenia.xaml.cs</name>
+  </compound>
+  <compound refid="_lekcja_8xaml_8cs" kind="file"><name>Lekcja.xaml.cs</name>
+  </compound>
+  <compound refid="_logowanie_8xaml_8cs" kind="file"><name>Logowanie.xaml.cs</name>
+  </compound>
+  <compound refid="_nieobecno_xC5_x9Bci_8xaml_8cs" kind="file"><name>Nieobecności.xaml.cs</name>
+  </compound>
+  <compound refid="_oceny_8xaml_8cs" kind="file"><name>Oceny.xaml.cs</name>
+  </compound>
+  <compound refid="_og_xC5_x82oszenia_8xaml_8cs" kind="file"><name>Ogłoszenia.xaml.cs</name>
+  </compound>
+  <compound refid="_plan__lekcji_8xaml_8cs" kind="file"><name>Plan_lekcji.xaml.cs</name>
+  </compound>
+  <compound refid="_terminarz_8xaml_8cs" kind="file"><name>Terminarz.xaml.cs</name>
+  </compound>
+  <compound refid="_uczen_na_lekcji_kontrolka_8xaml_8cs" kind="file"><name>UczenNaLekcjiKontrolka.xaml.cs</name>
+  </compound>
+  <compound refid="_uwagi_8xaml_8cs" kind="file"><name>Uwagi.xaml.cs</name>
+  </compound>
+  <compound refid="md__g__sem6__b_a_z_y_packages__bouncy_castle_1_8_9__r_e_a_d_m_e" kind="page"><name>md_G__sem6_BAZY_packages_BouncyCastle_1_8_9_README</name>
+  </compound>
+  <compound refid="md__g__sem6__b_a_z_y_packages__my_sql_connector_1_3_8__r_e_a_d_m_e" kind="page"><name>md_G__sem6_BAZY_packages_MySqlConnector_1_3_8_README</name>
+  </compound>
+  <compound refid="md__g__sem6__b_a_z_y_packages__newtonsoft__json_13_0_1__l_i_c_e_n_s_e" kind="page"><name>md_G__sem6_BAZY_packages_Newtonsoft_Json_13_0_1_LICENSE</name>
+  </compound>
+  <compound refid="md__g__sem6__b_a_z_y__r_e_a_d_m_e" kind="page"><name>md_G__sem6_BAZY_README</name>
+  </compound>
+  <compound refid="dir_9759a429759a68f71cc396df87f854b4" kind="dir"><name>G:/sem6/BAZY/obj/Debug/Views/Admin</name>
+  </compound>
+  <compound refid="dir_a32bfa56439e2c53f2db9f8af9c9d402" kind="dir"><name>G:/sem6/BAZY/Views/Admin</name>
+  </compound>
+  <compound refid="dir_4b1ad5912d97d8053d8208e4de9da318" kind="dir"><name>G:/sem6/BAZY</name>
+  </compound>
+  <compound refid="dir_fd59a4bbf3d819ccc31fc24a50c67e79" kind="dir"><name>G:/sem6/BAZY/packages/BouncyCastle.1.8.9</name>
+  </compound>
+  <compound refid="dir_d3be80a3c3f53b05fa7363b5e49e1292" kind="dir"><name>G:/sem6/BAZY/obj/Debug</name>
+  </compound>
+  <compound refid="dir_934f46a345653ef2b3014a1b37a162c1" kind="dir"><name>G:</name>
+  </compound>
+  <compound refid="dir_470f0d6df5ae39f78bcdf5aa14920dab" kind="dir"><name>G:/sem6/BAZY/Models</name>
+  </compound>
+  <compound refid="dir_cf2b63e60cc959967c99dd3e3efd6ea8" kind="dir"><name>G:/sem6/BAZY/packages/MySqlConnector.1.3.8</name>
+  </compound>
+  <compound refid="dir_65684da192a826123e6184b55673f773" kind="dir"><name>G:/sem6/BAZY/packages/Newtonsoft.Json.13.0.1</name>
+  </compound>
+  <compound refid="dir_9201aa121d62030076eb3560d35c2f0d" kind="dir"><name>G:/sem6/BAZY/obj</name>
+  </compound>
+  <compound refid="dir_cb9cb0175eb8a59dc5c4bcca331ab1f4" kind="dir"><name>G:/sem6/BAZY/packages</name>
+  </compound>
+  <compound refid="dir_7e94ca5f8c4b7d0017f6779957463b29" kind="dir"><name>G:/sem6/BAZY/Properties</name>
+  </compound>
+  <compound refid="dir_7e501043eb669f36dc1dc763021da08a" kind="dir"><name>G:/sem6</name>
+  </compound>
+  <compound refid="dir_c4c38b5ce9a8c0ed22b1787b03c88239" kind="dir"><name>G:/sem6/BAZY/obj/Debug/Views</name>
+  </compound>
+  <compound refid="dir_179e89dab0875d32b3e24eb44ebf0b31" kind="dir"><name>G:/sem6/BAZY/Views</name>
+  </compound>
+</doxygenindex>

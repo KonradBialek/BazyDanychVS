@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_a32bfa56439e2c53f2db9f8af9c9d402" kind="dir">
+    <compoundname>G:/sem6/BAZY/Views/Admin</compoundname>
+    <innerfile refid="_nauczyciele_8xaml_8cs">Nauczyciele.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Views/Admin/"/>
+  </compounddef>
+</doxygen>

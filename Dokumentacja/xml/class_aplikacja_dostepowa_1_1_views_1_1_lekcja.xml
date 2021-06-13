@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" kind="class" language="C#" prot="public">
+    <compoundname>AplikacjaDostepowa::Views::Lekcja</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a0c306c5248de1effae8359b809940294" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.Lekcja::klasaCombo</definition>
+        <argsstring></argsstring>
+        <name>klasaCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="46" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a830fe643d3e978e7ff682337dd900995" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.Lekcja::numerCombo</definition>
+        <argsstring></argsstring>
+        <name>numerCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="54" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1af5837fda70439fbe461cbd971f6d580b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox AplikacjaDostepowa.Views.Lekcja::przedmiotCombo</definition>
+        <argsstring></argsstring>
+        <name>przedmiotCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="62" column="48" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5e09b97faeef1f23d71abafc672452c5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox AplikacjaDostepowa.Views.Lekcja::Temat</definition>
+        <argsstring></argsstring>
+        <name>Temat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="70" column="47" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a1b925301bec5882401090ac073a6231d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.StackPanel</type>
+        <definition>System Windows Controls StackPanel AplikacjaDostepowa.Views.Lekcja::listaUczniow</definition>
+        <argsstring></argsstring>
+        <name>listaUczniow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="78" column="50" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a29bf08ca17f103b421f72492ce04a7f8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AplikacjaDostepowa.Views.Lekcja::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="83" column="22" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aaac909d75b5145ef1f7e34f62c5985a5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AplikacjaDostepowa.Views.Lekcja.dzienTygodnia</definition>
+        <argsstring></argsstring>
+        <name>dzienTygodnia</name>
+        <briefdescription>
+<para>Zawiera dzień tygodnia.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="27" column="24" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adff11944f6dc362a3bf0a5de81105d76" prot="private" static="no" mutable="no">
+        <type><ref refid="class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model" kindref="compound">LekcjaModel</ref></type>
+        <definition>LekcjaModel AplikacjaDostepowa.Views.Lekcja.lekcja</definition>
+        <argsstring></argsstring>
+        <name>lekcja</name>
+        <briefdescription>
+<para>Zawiera model lekcji.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="29" column="29" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a3812efa4348e2e0a469f35e85ba9960e" prot="private" static="no" mutable="no">
+        <type>List&lt; Dictionary&lt; string, object &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;string, object&gt; &gt; AplikacjaDostepowa.Views.Lekcja.Klasy</definition>
+        <argsstring></argsstring>
+        <name>Klasy</name>
+        <briefdescription>
+<para>Zawiera listę klas.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="31" column="22" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a4d8bd7c6138e6171cec4fab778248b07" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; DayOfWeek, string &gt;</type>
+        <definition>Dictionary&lt;DayOfWeek, string&gt; AplikacjaDostepowa.Views.Lekcja.week</definition>
+        <argsstring></argsstring>
+        <name>week</name>
+        <initializer>= new Dictionary&lt;DayOfWeek, string&gt; { { DayOfWeek.Monday, &quot;Poniedzialek&quot; }, { DayOfWeek.Tuesday, &quot;Wtorek&quot; }, { DayOfWeek.Wednesday, &quot;Sroda&quot; }, { DayOfWeek.Thursday, &quot;Czwartek&quot; }, { DayOfWeek.Friday, &quot;Piatek&quot; }, { DayOfWeek.Saturday, &quot;Sobota&quot; }, { DayOfWeek.Sunday, &quot;Niedziela&quot; } }</initializer>
+        <briefdescription>
+<para>Zawiera tydzień roboczy.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="33" column="27" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aff9a23e9a7c5bfb6584603971d991199" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; AplikacjaDostepowa.Views.Lekcja.KlasyNazwy</definition>
+        <argsstring></argsstring>
+        <name>KlasyNazwy</name>
+        <briefdescription>
+<para>Pobiera listę klas.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="46" column="21" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a54931576fd0120e393f08fbd89ba0137" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; AplikacjaDostepowa.Views.Lekcja.Przedmioty</definition>
+        <argsstring></argsstring>
+        <name>Przedmioty</name>
+        <briefdescription>
+<para>Pobiera listę przedmiotów.</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="49" column="21" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="90" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.i.cs" line="90" column="21" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.i.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ab15b0d20ebd737de5f09027e50d5e6be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AplikacjaDostepowa.Views.Lekcja.Lekcja</definition>
+        <argsstring>()</argsstring>
+        <name>Lekcja</name>
+        <briefdescription>
+<para>Konstruktor klasy <ref refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" kindref="compound">Lekcja</ref>, pobiera przedmioty i klasy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="37" column="16" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Lekcja.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="110" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="110" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. AplikacjaDostepowa.Views.Lekcja.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.i.cs" line="110" column="52" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.i.cs" bodystart="110" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adc9b16e12d9e390d25d85708fa901ec6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.LoadNumbers</definition>
+        <argsstring>()</argsstring>
+        <name>LoadNumbers</name>
+        <briefdescription>
+<para>Wczytanie numerów lekcji. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="54" column="14" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aeca0b3db80b19f770b6e2704e8775b2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.LoadPrzedmioty</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPrzedmioty</name>
+        <briefdescription>
+<para>Wczytanie przedmiotów. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="64" column="14" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5809b1e18bb92fdc6372c7cc763b019e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.LoadPeople</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPeople</name>
+        <briefdescription>
+<para>Wczytanie uczniów. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="71" column="14" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ae9fff97e327d2d47eb10592cfac22cf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.LoadLesson</definition>
+        <argsstring>()</argsstring>
+        <name>LoadLesson</name>
+        <briefdescription>
+<para>Wczytanie lekcji. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="86" column="14" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="86" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ac8ccffdc73d73b07070f48bfb1455187" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.klasaCombo_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>klasaCombo_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Wyświetlenie numerów lekcji, uczniów i lekcji. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="104" column="22" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="104" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aae84581fdb9764b9c22ddbd098a3f2e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie lekcji po wciśnięciu przycisku. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="119" column="22" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="119" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a9136df98cefa20ddafa3a4ad4e1eafe8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AplikacjaDostepowa.Views.Lekcja.numerCombo_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>numerCombo_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Zmiana wybranego numeru lekcji. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Źródło</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dodatkowe argumenty</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="G:/sem6/BAZY/Views/Lekcja.xaml.cs" line="148" column="22" bodyfile="G:/sem6/BAZY/Views/Lekcja.xaml.cs" bodystart="148" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" kindref="compound">Lekcja</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Klasa <computeroutput><ref refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja" kindref="compound">Lekcja</ref></computeroutput> zawiera metody pozwalające na dodawanie lekcji.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Lekcja</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AplikacjaDostepowa.Views.Lekcja</label>
+        <link refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Temat</edgelabel>
+          <edgelabel>klasaCombo</edgelabel>
+          <edgelabel>listaUczniow</edgelabel>
+          <edgelabel>numerCombo</edgelabel>
+          <edgelabel>przedmiotCombo</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" line="41" column="19" bodyfile="G:/sem6/BAZY/obj/Debug/Views/Lekcja.g.cs" bodystart="41" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a29bf08ca17f103b421f72492ce04a7f8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>_contentLoaded</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aae84581fdb9764b9c22ddbd098a3f2e8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Button_Click</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a7560338f646b6fd89c91ab86c5d1dc54" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Connect</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aaac909d75b5145ef1f7e34f62c5985a5" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>dzienTygodnia</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a13fbbd90819cd7e6cc7b5215ea81cc36" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>InitializeComponent</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a0c306c5248de1effae8359b809940294" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>klasaCombo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ac8ccffdc73d73b07070f48bfb1455187" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>klasaCombo_SelectionChanged</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a3812efa4348e2e0a469f35e85ba9960e" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Klasy</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aff9a23e9a7c5bfb6584603971d991199" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>KlasyNazwy</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adff11944f6dc362a3bf0a5de81105d76" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>lekcja</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ab15b0d20ebd737de5f09027e50d5e6be" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Lekcja</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a1b925301bec5882401090ac073a6231d" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>listaUczniow</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1ae9fff97e327d2d47eb10592cfac22cf1" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>LoadLesson</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1adc9b16e12d9e390d25d85708fa901ec6" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>LoadNumbers</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5809b1e18bb92fdc6372c7cc763b019e" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>LoadPeople</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1aeca0b3db80b19f770b6e2704e8775b2e" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>LoadPrzedmioty</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a830fe643d3e978e7ff682337dd900995" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>numerCombo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a9136df98cefa20ddafa3a4ad4e1eafe8" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>numerCombo_SelectionChanged</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1af5837fda70439fbe461cbd971f6d580b" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>przedmiotCombo</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a54931576fd0120e393f08fbd89ba0137" prot="public" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Przedmioty</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a5e09b97faeef1f23d71abafc672452c5" prot="package" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>Temat</name></member>
+      <member refid="class_aplikacja_dostepowa_1_1_views_1_1_lekcja_1a4d8bd7c6138e6171cec4fab778248b07" prot="private" virt="non-virtual"><scope>AplikacjaDostepowa::Views::Lekcja</scope><name>week</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

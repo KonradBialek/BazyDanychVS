@@ -18,13 +18,17 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Interaction logic for DodawanieOceny.xaml
+    /// Klasa <c>DodawanieOceny</c> zawiera metody pozwalające na dodawanie oceny.
     /// </summary>
     public partial class DodawanieOceny : UserControl
     {
+        /// <value>Pobiera listę przedmiotów.</value>
         public List<string> Przedmioty { get; private set; }
+        /// <value>Pobiera listę uczniów.</value>
         public List<ComboBoxItem> Uczniowie { get; private set; }
-
+        /// <summary>
+        /// Konstruktor klasy DodawanieOceny, pobiera tabelę uczniów i przedmiotów.
+        /// </summary>
         public DodawanieOceny()
         {
             DataContext = this;
@@ -32,7 +36,11 @@ namespace AplikacjaDostepowa.Views
             Uczniowie = BazaDanych.ReadAsDictionary(@"SELECT dane_osobowe_Imie, dane_osobowe_Nazwisko, iducznia FROM uczen ORDER BY nr_w_dzienniku ASC").Select(x => new ComboBoxItem() { Content = x["iducznia"], ContentStringFormat = x["dane_osobowe_Imie"] + " " + x["dane_osobowe_Nazwisko"] }).ToList();
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Dodanie oceny po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
@@ -45,7 +53,7 @@ namespace AplikacjaDostepowa.Views
                 new MySqlParameter("opis", Opis.Text),
                 new MySqlParameter("uczen_iducznia", Uczen.SelectionBoxItem)
                 );
-            MessageBox.Show("Dodano uwagę.");
+            MessageBox.Show("Dodano ocenę.");
             ((MainWindow)Application.Current.MainWindow).DataContext = new Oceny();
         }
     }

@@ -17,10 +17,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Ogłoszenia.xaml
+    /// Klasa <c>Ogłoszenia</c> zawiera metody pozwalające na odczyt ogłoszeń.
     /// </summary>
     public partial class Ogłoszenia : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy Ogłoszenia, ustawia widoczność przycisku dodania ogłoszenia.
+        /// </summary>
         public Ogłoszenia()
         {
             DataContext = this;
@@ -28,8 +31,16 @@ namespace AplikacjaDostepowa.Views
             var user = ((MainWindow)Application.Current.MainWindow).LoggedUser;
             DodajButton.Visibility = user.Typ == UserType.Nauczyciel ? Visibility.Visible : Visibility.Collapsed;
         }
+        /// <summary>
+        /// Pobór tabeli dotyczącej ogłoszeń z bazy danych.
+        /// </summary>
         public DataTable Data => BazaDanych.GetTable("SELECT tresc from informacje");
 
+        /// <summary>
+        /// Przejście do okna dodania ogłoszeń po wciśnięciu przycisku.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((MainWindow)Application.Current.MainWindow).DataContext = new DodawanieOgłoszenia();

@@ -19,10 +19,13 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Administrator.xaml
+    /// Klasa <c>Administrator</c> inicjuje widok administratora.
     /// </summary>
     public partial class Administrator : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy Administrator, inicjuje widok administratora.
+        /// </summary>
         public Administrator()
         {
             InitializeComponent();

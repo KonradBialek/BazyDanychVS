@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['lekcja_58',['Lekcja',['../class_aplikacja_dostepowa_1_1_views_1_1_lekcja.html',1,'AplikacjaDostepowa.Views.Lekcja'],['../class_aplikacja_dostepowa_1_1_views_1_1_lekcja.html#ab15b0d20ebd737de5f09027e50d5e6be',1,'AplikacjaDostepowa.Views.Lekcja.Lekcja()']]],
+  ['lekcja_2eg_2ecs_59',['Lekcja.g.cs',['../_lekcja_8g_8cs.html',1,'']]],
+  ['lekcja_2eg_2ei_2ecs_60',['Lekcja.g.i.cs',['../_lekcja_8g_8i_8cs.html',1,'']]],
+  ['lekcja_2examl_2ecs_61',['Lekcja.xaml.cs',['../_lekcja_8xaml_8cs.html',1,'']]],
+  ['lekcjamodel_62',['LekcjaModel',['../class_aplikacja_dostepowa_1_1_models_1_1_lekcja_model.html',1,'AplikacjaDostepowa::Models']]],
+  ['lekcjamodel_2ecs_63',['LekcjaModel.cs',['../_lekcja_model_8cs.html',1,'']]],
+  ['license_64',['LICENSE',['../md__g__sem6__b_a_z_y_packages__newtonsoft__json_13_0_1__l_i_c_e_n_s_e.html',1,'']]],
+  ['license_2emd_65',['LICENSE.md',['../_l_i_c_e_n_s_e_8md.html',1,'']]],
+  ['lista_66',['Lista',['../class_aplikacja_dostepowa_1_1_views_1_1_admin_1_1_nauczyciele.html#a0d3843744c051ec97f6828e382c6f3c5',1,'AplikacjaDostepowa::Views::Admin::Nauczyciele']]],
+  ['loadsummary_67',['LoadSummary',['../class_aplikacja_dostepowa_1_1_views_1_1_nieobecno_xC5_x9Bci.html#a61dc435fdc2fb9786fc2b868ad299a83',1,'AplikacjaDostepowa::Views::Nieobecności']]],
+  ['loggeduser_68',['LoggedUser',['../class_aplikacja_dostepowa_1_1_main_window.html#ad92ff77d0c56192953a6e078a91a55b1',1,'AplikacjaDostepowa::MainWindow']]],
+  ['login_69',['login',['../class_aplikacja_dostepowa_1_1_models_1_1_nauczyciel.html#a25329618ef6b18f65a76ceed81ae664a',1,'AplikacjaDostepowa::Models::Nauczyciel']]],
+  ['login1_70',['Login1',['../class_aplikacja_dostepowa_1_1_views_1_1_logowanie.html#ae3bc8abd55310ab6761c20fdd31afe26',1,'AplikacjaDostepowa::Views::Logowanie']]],
+  ['logowanie_71',['Logowanie',['../class_aplikacja_dostepowa_1_1_views_1_1_logowanie.html',1,'AplikacjaDostepowa.Views.Logowanie'],['../class_aplikacja_dostepowa_1_1_views_1_1_logowanie.html#a3ef0cf2c4f82c88b91c7deef2a390772',1,'AplikacjaDostepowa.Views.Logowanie.Logowanie()']]],
+  ['logowanie_2eg_2ecs_72',['Logowanie.g.cs',['../_logowanie_8g_8cs.html',1,'']]],
+  ['logowanie_2eg_2ei_2ecs_73',['Logowanie.g.i.cs',['../_logowanie_8g_8i_8cs.html',1,'']]],
+  ['logowanie_2examl_2ecs_74',['Logowanie.xaml.cs',['../_logowanie_8xaml_8cs.html',1,'']]]
+];

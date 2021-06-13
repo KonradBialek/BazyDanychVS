@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_assembly_info_8cs" kind="file" language="C#">
+    <compoundname>AssemblyInfo.cs</compoundname>
+    <innernamespace refid="namespace_system_1_1_resources">System::Resources</innernamespace>
+    <innernamespace refid="namespace_system_1_1_runtime_1_1_compiler_services">System::Runtime::CompilerServices</innernamespace>
+    <innernamespace refid="namespace_system_1_1_runtime_1_1_interop_services">System::Runtime::InteropServices</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Reflection;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Resources;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Runtime.CompilerServices;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Runtime.InteropServices;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ogólne<sp/>informacje<sp/>o<sp/>zestawie<sp/>są<sp/>kontrolowane<sp/>poprzez<sp/>następujący<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>zestaw<sp/>atrybutów.<sp/>Zmień<sp/>wartości<sp/>tych<sp/>atrybutów,<sp/>aby<sp/>zmodyfikować<sp/>informacje</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>powiązane<sp/>z<sp/>zestawem.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[assembly:<sp/>AssemblyTitle(</highlight><highlight class="stringliteral">&quot;AplikacjaDostepowa&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">[assembly:<sp/>AssemblyDescription(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">[assembly:<sp/>AssemblyConfiguration(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">[assembly:<sp/>AssemblyCompany(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">[assembly:<sp/>AssemblyProduct(</highlight><highlight class="stringliteral">&quot;AplikacjaDostepowa&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">[assembly:<sp/>AssemblyCopyright(</highlight><highlight class="stringliteral">&quot;Copyright<sp/>©<sp/><sp/>2021&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">[assembly:<sp/>AssemblyTrademark(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">[assembly:<sp/>AssemblyCulture(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ustawienie<sp/>elementu<sp/>ComVisible<sp/>na<sp/>wartość<sp/>false<sp/>sprawia,<sp/>że<sp/>typy<sp/>w<sp/>tym<sp/>zestawie<sp/>są<sp/>niewidoczne</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dla<sp/>składników<sp/>COM.<sp/>Jeśli<sp/>potrzebny<sp/>jest<sp/>dostęp<sp/>do<sp/>typu<sp/>w<sp/>tym<sp/>zestawie<sp/>z</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>COM,<sp/>ustaw<sp/>wartość<sp/>true<sp/>dla<sp/>atrybutu<sp/>ComVisible<sp/>tego<sp/>typu.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">[assembly:<sp/>ComVisible(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//Aby<sp/>rozpocząć<sp/>kompilację<sp/>aplikacji<sp/>możliwych<sp/>do<sp/>zlokalizowania,<sp/>ustaw</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//&lt;UICulture&gt;Kultura_używana_podczas_kodowania&lt;/UICulture&gt;<sp/>w<sp/>pliku<sp/>csproj</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//w<sp/>grupie<sp/>&lt;PropertyGroup&gt;.<sp/>Jeśli<sp/>na<sp/>przykład<sp/>jest<sp/>używany<sp/>język<sp/>angielski<sp/>(USA)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//w<sp/>plikach<sp/>źródłowych<sp/>ustaw<sp/>dla<sp/>elementu<sp/>&lt;UICulture&gt;<sp/>wartość<sp/>en-US.<sp/>Następnie<sp/>usuń<sp/>komentarz<sp/>dla</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//poniższego<sp/>atrybutu<sp/>NeutralResourceLanguage.<sp/>Zaktualizuj<sp/>wartość<sp/>„en-US”<sp/>w</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//poniższej<sp/>linii<sp/>tak,<sp/>aby<sp/>dopasować<sp/>ustawienie<sp/>UICulture<sp/>w<sp/>pliku<sp/>projektu.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//[assembly:<sp/>NeutralResourcesLanguage(&quot;en-US&quot;,<sp/>UltimateResourceFallbackLocation.Satellite)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">[assembly:<sp/>ThemeInfo(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ResourceDictionaryLocation.None,<sp/></highlight><highlight class="comment">//gdzie<sp/>znajdują<sp/>się<sp/>słowniki<sp/>zasobów<sp/>specyficznych<sp/>dla<sp/>motywów</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(używane,<sp/>jeśli<sp/>nie<sp/>można<sp/>odnaleźć<sp/>zasobu<sp/>na<sp/>stronie,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>lub<sp/>słowniki<sp/>zasobów<sp/>aplikacji)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ResourceDictionaryLocation.SourceAssembly<sp/></highlight><highlight class="comment">//gdzie<sp/>znajduje<sp/>się<sp/>słownik<sp/>zasobów<sp/>ogólnych</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(używane,<sp/>jeśli<sp/>nie<sp/>można<sp/>odnaleźć<sp/>zasobu<sp/>na<sp/>stronie,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>aplikacji<sp/>lub<sp/>słowników<sp/>zasobów<sp/>specyficznych<sp/>dla<sp/>motywów)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Informacje<sp/>o<sp/>wersji<sp/>zestawu<sp/>zawierają<sp/>następujące<sp/>cztery<sp/>wartości:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Wersja<sp/>główna</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Wersja<sp/>pomocnicza</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Numer<sp/>kompilacji</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Poprawka</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Możesz<sp/>określić<sp/>wszystkie<sp/>wartości<sp/>lub<sp/>użyć<sp/>domyślnych<sp/>numerów<sp/>kompilacji<sp/>i<sp/>poprawki</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>przy<sp/>użyciu<sp/>symbolu<sp/>„*”,<sp/>tak<sp/>jak<sp/>pokazano<sp/>poniżej:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[assembly:<sp/>AssemblyVersion(&quot;1.0.*&quot;)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">[assembly:<sp/>AssemblyVersion(</highlight><highlight class="stringliteral">&quot;1.0.0.0&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">[assembly:<sp/>AssemblyFileVersion(</highlight><highlight class="stringliteral">&quot;1.0.0.0&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+    </programlisting>
+    <location file="G:/sem6/BAZY/Properties/AssemblyInfo.cs"/>
+  </compounddef>
+</doxygen>

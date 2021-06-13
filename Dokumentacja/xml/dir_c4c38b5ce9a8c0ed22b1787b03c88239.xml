@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_c4c38b5ce9a8c0ed22b1787b03c88239" kind="dir">
+    <compoundname>G:/sem6/BAZY/obj/Debug/Views</compoundname>
+    <innerdir refid="dir_9759a429759a68f71cc396df87f854b4">G:/sem6/BAZY/obj/Debug/Views/Admin</innerdir>
+    <innerfile refid="_administrator_8g_8cs">Administrator.g.cs</innerfile>
+    <innerfile refid="_administrator_8g_8i_8cs">Administrator.g.i.cs</innerfile>
+    <innerfile refid="_archiwum_8g_8cs">Archiwum.g.cs</innerfile>
+    <innerfile refid="_archiwum_8g_8i_8cs">Archiwum.g.i.cs</innerfile>
+    <innerfile refid="_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8cs">DodajNieobecność.g.cs</innerfile>
+    <innerfile refid="_dodaj_nieobecno_xC5_x9B_xC4_x87_8g_8i_8cs">DodajNieobecność.g.i.cs</innerfile>
+    <innerfile refid="_dodaj_uwag_xC4_x99_8g_8cs">DodajUwagę.g.cs</innerfile>
+    <innerfile refid="_dodaj_uwag_xC4_x99_8g_8i_8cs">DodajUwagę.g.i.cs</innerfile>
+    <innerfile refid="_dodawanie_oceny_8g_8cs">DodawanieOceny.g.cs</innerfile>
+    <innerfile refid="_dodawanie_oceny_8g_8i_8cs">DodawanieOceny.g.i.cs</innerfile>
+    <innerfile refid="_dodawanie_og_xC5_x82oszenia_8g_8cs">DodawanieOgłoszenia.g.cs</innerfile>
+    <innerfile refid="_dodawanie_og_xC5_x82oszenia_8g_8i_8cs">DodawanieOgłoszenia.g.i.cs</innerfile>
+    <innerfile refid="_lekcja_8g_8cs">Lekcja.g.cs</innerfile>
+    <innerfile refid="_lekcja_8g_8i_8cs">Lekcja.g.i.cs</innerfile>
+    <innerfile refid="_logowanie_8g_8cs">Logowanie.g.cs</innerfile>
+    <innerfile refid="_logowanie_8g_8i_8cs">Logowanie.g.i.cs</innerfile>
+    <innerfile refid="_nieobecno_xC5_x9Bci_8g_8cs">Nieobecności.g.cs</innerfile>
+    <innerfile refid="_nieobecno_xC5_x9Bci_8g_8i_8cs">Nieobecności.g.i.cs</innerfile>
+    <innerfile refid="_oceny_8g_8cs">Oceny.g.cs</innerfile>
+    <innerfile refid="_oceny_8g_8i_8cs">Oceny.g.i.cs</innerfile>
+    <innerfile refid="_og_xC5_x82oszenia_8g_8cs">Ogłoszenia.g.cs</innerfile>
+    <innerfile refid="_og_xC5_x82oszenia_8g_8i_8cs">Ogłoszenia.g.i.cs</innerfile>
+    <innerfile refid="_plan__lekcji_8g_8cs">Plan_lekcji.g.cs</innerfile>
+    <innerfile refid="_plan__lekcji_8g_8i_8cs">Plan_lekcji.g.i.cs</innerfile>
+    <innerfile refid="_terminarz_8g_8cs">Terminarz.g.cs</innerfile>
+    <innerfile refid="_terminarz_8g_8i_8cs">Terminarz.g.i.cs</innerfile>
+    <innerfile refid="_uczen_na_lekcji_kontrolka_8g_8cs">UczenNaLekcjiKontrolka.g.cs</innerfile>
+    <innerfile refid="_uczen_na_lekcji_kontrolka_8g_8i_8cs">UczenNaLekcjiKontrolka.g.i.cs</innerfile>
+    <innerfile refid="_uwagi_8g_8cs">Uwagi.g.cs</innerfile>
+    <innerfile refid="_uwagi_8g_8i_8cs">Uwagi.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/obj/Debug/Views/"/>
+  </compounddef>
+</doxygen>

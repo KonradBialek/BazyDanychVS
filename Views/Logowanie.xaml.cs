@@ -17,29 +17,35 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy Logowanie.xaml
+    /// Klasa <c>Logowanie</c> zawiera metody pozwalające na logowanie użytkownika.
     /// </summary>
     public partial class Logowanie : UserControl
     {
+
         private string Login;
         private string Haslo;
 
+        /// <value>Pobiera login.</value>
         public string Login1 { get => Login; set => Login = value; }
+        /// <value>Pobiera login.</value>
         public string Haslo1 { get => Haslo; set => Haslo = value; }
-
-        //String Login;
-        //String Haslo;
+        /// <summary>
+        /// Konstruktor klasy Logowanie.
+        /// </summary>
         public Logowanie()
         {
             InitializeComponent();
         }
 
-
+        /// <summary>
+        /// Obsługa logowania użytkownika (hashowanie hasła).
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         public void Zaloguj(object sender, RoutedEventArgs e)
         {
             BazaDanych.SetPassword(hasloDB.Password);
             Login1 = login.Text;
-            //Haslo1 = haslo.Text; 
             byte[] pass = Encoding.UTF8.GetBytes(haslo.Password);
             MD5 md5Provider = new MD5CryptoServiceProvider();
             byte[] md5Hash = md5Provider.ComputeHash(pass);

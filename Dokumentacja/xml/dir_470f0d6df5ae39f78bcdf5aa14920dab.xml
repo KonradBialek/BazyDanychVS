@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_470f0d6df5ae39f78bcdf5aa14920dab" kind="dir">
+    <compoundname>G:/sem6/BAZY/Models</compoundname>
+    <innerfile refid="_lekcja_model_8cs">LekcjaModel.cs</innerfile>
+    <innerfile refid="_nauczyciel_8cs">Nauczyciel.cs</innerfile>
+    <innerfile refid="_uczen_na_lekcji_8cs">UczenNaLekcji.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <innerfile refid="_user_type_8cs">UserType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/Models/"/>
+  </compounddef>
+</doxygen>

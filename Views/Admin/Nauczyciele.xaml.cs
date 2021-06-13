@@ -18,12 +18,16 @@ using System.Windows.Shapes;
 namespace AplikacjaDostepowa.Views.Admin
 {
     /// <summary>
-    /// Interaction logic for Nauczyciele.xaml
+    /// Klasa <c>Nauczyciele</c> zawiera metody pozwalające na modyfikację i wyświetlanie danych nauuczycieli.
     /// </summary>
     public partial class Nauczyciele : UserControl
     {
+        /// <value>Pobiera Id wybranego nauczyciela.</value>
         private int AktualnyId;
 
+        /// <summary>
+        /// Konstruktor klasy Nauczyciele, pobiera i wyświetla listę nauczycieii.
+        /// </summary>
         public Nauczyciele()
         {
             DataContext = this;
@@ -33,8 +37,14 @@ namespace AplikacjaDostepowa.Views.Admin
             Combo.SelectedItem = Lista.Last();
         }
 
+        /// <value>Pobiera listę nayczycieli.</value>
         public List<Nauczyciel> Lista { get; private set; }
 
+        /// <summary>
+        /// Wyświetlenie danych wybranego nauczyciela.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Combo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var item = Combo.SelectedItem as Nauczyciel;
@@ -46,6 +56,11 @@ namespace AplikacjaDostepowa.Views.Admin
             CzyAdmin.IsChecked = item.czy_admin;
         }
 
+        /// <summary>
+        /// Dodanie lub zaktualizowanie danych nauczyciela w odpowiednich tabelach.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (!BazaDanych.ReadAsArray("SELECT 1 FROM dane_osobowe WHERE Imie = @Imie AND Nazwisko = @Nazwisko", new MySqlParameter("Imie", Imię.Text), new MySqlParameter("Nazwisko", Nazwisko.Text)).Any())
@@ -78,6 +93,11 @@ namespace AplikacjaDostepowa.Views.Admin
             }
             ((MainWindow)Application.Current.MainWindow).DataContext = new Administrator();
         }
+        /// <summary>
+        /// Usunięcie danych nauczyciela z odpowiednich tabel.
+        /// </summary>
+        /// <param name="sender">Źródło</param>
+        /// <param name="e">Dodatkowe argumenty</param>
         private void Usun_Click(object sender, RoutedEventArgs e)
         {
 

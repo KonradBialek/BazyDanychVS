@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md__g__sem6__b_a_z_y_packages__bouncy_castle_1_8_9__r_e_a_d_m_e" kind="page">
+    <compoundname>md_G__sem6_BAZY_packages_BouncyCastle_1_8_9_README</compoundname>
+    <title>The Bouncy Castle Crypto Package For C Sharp</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at <ulink url="http://www.bouncycastle.org">http://www.bouncycastle.org</ulink>. In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP.</para>
+<para>The Legion also gratefully acknowledges the contributions made to this package by others (see <ulink url="http://www.bouncycastle.org/csharp/contributors.html">here</ulink> for the current list). If you would like to contribute to our efforts please feel free to get in touch with us or visit our <ulink url="https://www.bouncycastle.org/donate">donations page</ulink>, sponsor some specific work, or purchase a support contract through <ulink url="http://www.cryptoworkshop.com">Crypto Workshop</ulink>.</para>
+<para>Except where otherwise stated, this software is distributed under a license based on the MIT X Consortium license. To view the license, <ulink url="http://www.bouncycastle.org/licence.html">see here</ulink>. The OpenPGP library also includes a modified BZIP2 library which is licensed under the <ulink url="http://www.apache.org/licenses/">Apache Software License, Version 2.0</ulink>.</para>
+<para><bold>Note</bold>: this source tree is not the FIPS version of the APIs - if you are interested in our FIPS version please contact us directly at <ulink url="mailto:office@bouncycastle.org">office@bouncycastle.org</ulink>.</para>
+<sect1 id="md__g__sem6__b_a_z_y_packages__bouncy_castle_1_8_9__r_e_a_d_m_e_1autotoc_md1">
+<title>Mailing Lists</title>
+<para>For those who are interested, there are 2 mailing lists for participation in this project. To subscribe use the links below and include the word subscribe in the message body. (To unsubscribe, replace <bold>subscribe</bold> with <bold>unsubscribe</bold> in the message body)</para>
+<para><itemizedlist>
+<listitem><para><ulink url="mailto:announce-crypto-csharp-request@bouncycastle.org">announce-crypto-csharp-request@bouncycastle.org</ulink> <linebreak/>
+ This mailing list is for new release announcements only, general subscribers cannot post to it.</para>
+</listitem><listitem><para><ulink url="mailto:dev-crypto-csharp-request@bouncycastle.org">dev-crypto-csharp-request@bouncycastle.org</ulink> <linebreak/>
+ This mailing list is for discussion of development of the package. This includes bugs, comments, requests for enhancements, questions about use or operation.</para>
+</listitem></itemizedlist>
+</para>
+<para>**NOTE:**You need to be subscribed to send mail to the above mailing list.</para>
+</sect1>
+<sect1 id="md__g__sem6__b_a_z_y_packages__bouncy_castle_1_8_9__r_e_a_d_m_e_1autotoc_md2">
+<title>Feedback</title>
+<para>If you want to provide feedback directly to the members of <bold>The Legion</bold> then please use <ulink url="mailto:feedback-crypto@bouncycastle.org">feedback-crypto@bouncycastle.org</ulink>, if you want to help this project survive please consider <ulink url="https://www.bouncycastle.org/donate">donating</ulink>.</para>
+<para>For bug reporting/requests you can report issues here on github, via feedback-crypto if required, and we also have a <ulink url="http://www.bouncycastle.org/jira">Jira issue tracker</ulink>. We will accept pull requests based on this repository as well.</para>
+</sect1>
+<sect1 id="md__g__sem6__b_a_z_y_packages__bouncy_castle_1_8_9__r_e_a_d_m_e_1autotoc_md3">
+<title>Finally</title>
+<para>Enjoy! </para>
+</sect1>
+    </detaileddescription>
+    <location file="G:/sem6/BAZY/packages/BouncyCastle.1.8.9/README.md"/>
+  </compounddef>
+</doxygen>
